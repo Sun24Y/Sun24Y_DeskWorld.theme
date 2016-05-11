@@ -16,5 +16,5 @@ There are some preconfigured config files ready for import into the dependent ex
   
 Kind regards,
   
-Arjuna Noorsanto <awebgo.net@gmail.com>  
-[Administrator]
+Arjuna Noorsanto [Administrator]  
+eMail: <awebgo.net@gmail.com>
