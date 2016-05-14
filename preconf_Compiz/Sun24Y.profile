@@ -1,5 +1,5 @@
 [mswitch]
-as_begin_key = Disabled
+as_begin_key = <Super>s
 as_begin_button = Disabled
 
 [scale]
@@ -68,7 +68,7 @@ as_saturation = 50
 as_opacity = 100
 
 [session]
-as_save_legacy = true
+as_save_legacy = false
 as_ignore_match = 
 
 [anaglyph]
@@ -111,24 +111,24 @@ s0_window_part_size = 20
 [thumbnail]
 s0_thumb_size = 200
 s0_show_delay = 100
-s0_border = 24
-s0_thumb_color = #00117984
+s0_border = 16
+s0_thumb_color = #0000007f
 s0_fade_speed = 0.500000
 s0_current_viewport = true
 s0_always_on_top = true
-s0_window_like = false
-s0_mipmap = true
+s0_window_like = true
+s0_mipmap = false
 s0_title_enabled = true
 s0_font_family = Sans
 s0_font_bold = true
-s0_font_size = 10
-s0_font_color = #ffc000ff
+s0_font_size = 12
+s0_font_color = #000000ff
 
 [clone]
 as_initiate_button = <Shift><Super>Button1
 
 [vpswitch]
-as_begin_key = <Control><Primary><Alt>1
+as_begin_key = Disabled
 as_switch_to_1_key = Disabled
 as_switch_to_2_key = Disabled
 as_switch_to_3_key = Disabled
@@ -145,9 +145,9 @@ as_left_button = Disabled
 as_right_button = Disabled
 as_up_button = Disabled
 as_down_button = Disabled
-as_next_button = Disabled
-as_prev_button = Disabled
-as_initiate_button = Disabled
+as_next_button = Button5
+as_prev_button = Button4
+as_initiate_button = Button2
 as_init_plugin = rotate
 as_init_action = initiate_button
 
@@ -182,10 +182,10 @@ as_tile_restore_key = <Shift><Super>z
 as_tile_toggle_key = <Shift><Super>x
 
 [blur]
-as_pulse = true
+as_pulse = false
 s0_blur_speed = 3.500000
 s0_focus_blur_match = toolbar | menu | utility | normal | dialog | modaldialog
-s0_focus_blur = true
+s0_focus_blur = false
 s0_alpha_blur_match = any
 s0_alpha_blur = true
 s0_filter = 0
@@ -194,18 +194,18 @@ s0_gaussian_strength = 1.000000
 s0_mipmap_lod = 2.500000
 s0_saturation = 100
 s0_occlusion = true
-s0_independent_tex = true
+s0_independent_tex = false
 
 [core]
-as_active_plugins = core;svg;session;clone;dbus;vpswitch;place;mousepoll;titleinfo;resize;workarounds;put;mblur;glib;inotify;text;png;regex;fakeargb;decoration;imgjpeg;shift;dialog;thumbnail;blur;resizeinfo;snap;loginout;animation;ghost;fade;obs;trailfocus;cube;video;animationsim;bicubic;scale;addhelper;anaglyph;move;opacify;animationaddon;3d;rotate;static;zoom;animationplus;expo;ezoom;switcher;staticswitcher;
+as_active_plugins = core;svg;mswitch;session;clone;dbus;vpswitch;place;mousepoll;titleinfo;crashhandler;screenshot;resize;workarounds;put;mblur;glib;inotify;text;ring;png;regex;winrules;decoration;imgjpeg;notification;shift;extrawm;thumbnail;blur;resizeinfo;snap;loginout;animation;ghost;fade;obs;trailfocus;cube;video;bicubic;scale;addhelper;anaglyph;showdesktop;move;opacify;animationaddon;showmouse;switcher;3d;rotate;static;zoom;animationplus;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
-as_edge_delay = 3
-as_cursor_theme = crystalcursors
+as_edge_delay = 0
+as_cursor_theme = 
 as_cursor_size = 32
 as_ping_delay = 5000
-as_texture_filter = 0
+as_texture_filter = 2
 as_click_to_focus = true
 as_raise_on_click = true
 as_autoraise = true
@@ -234,20 +234,20 @@ as_toggle_window_shaded_key = <Control><Primary><Alt>s
 as_slow_animations_key = Disabled
 s0_hsize = 4
 s0_vsize = 1
-s0_number_of_desktops = 4
+s0_number_of_desktops = 1
 s0_lighting = true
 s0_detect_refresh_rate = true
 s0_refresh_rate = 50
 s0_detect_outputs = true
 s0_overlapping_outputs = 0
-s0_outputs = 1360x768+0+0;
+s0_outputs = 640x480+0+0;
 s0_sync_to_vblank = true
-s0_focus_prevention_level = 1
+s0_focus_prevention_level = 2
 s0_focus_prevention_match = any
-s0_unredirect_fullscreen_windows = true
+s0_unredirect_fullscreen_windows = false
 s0_default_icon = icon
-s0_force_independent_output_painting = true
-s0_texture_compression = true
+s0_force_independent_output_painting = false
+s0_texture_compression = false
 
 [scaleaddon]
 as_close_key = Disabled
@@ -281,7 +281,7 @@ as_title_wave = false
 as_mouse_poll_interval = 40
 
 [fireflies]
-as_num_snowflakes = 200
+as_num_snowflakes = 1500
 as_snow_size = 10.000000
 as_snow_speed = 85
 as_snow_update_delay = 40
@@ -289,11 +289,11 @@ as_screen_boxing = 400
 as_screen_depth = 1000
 as_snow_over_windows = false
 as_snow_rotation = true
-as_snow_direction = 1
+as_snow_direction = 0
 as_snow_textures = fireflies/firefly1.png;fireflies/firefly2.png;fireflies/firefly3.png;fireflies/firefly4.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = <Control><Primary>F12
+as_toggle_key = <Super>F7
 
 [photo]
 s0_photo_textures = 
@@ -481,7 +481,7 @@ s0_time_step_intense = 30
 [expo]
 as_expo_key = <Super>e
 as_expo_button = Disabled
-as_expo_edge = 
+as_expo_edge = TopLeft
 as_double_click_time = 500
 as_dnd_button = Button1
 as_exit_button = Button3
@@ -507,11 +507,11 @@ as_ground_size = 0.500000
 as_scale_factor = 1.000000
 
 [ezoom]
-as_zoom_in_button = Disabled
-as_zoom_in_key = <Control><Primary>Up
-as_zoom_out_button = Disabled
-as_zoom_out_key = <Control><Primary>Down
-as_zoom_box_button = Disabled
+as_zoom_in_button = <Super>Button4
+as_zoom_in_key = Disabled
+as_zoom_out_button = <Super>Button5
+as_zoom_out_key = Disabled
+as_zoom_box_button = <Super>Button2
 as_center_mouse_key = Disabled
 as_zoom_specific_1_key = Disabled
 as_zoom_spec1 = 1.000000
@@ -656,18 +656,18 @@ as_rectangle_match =
 as_stretch_match = 
 
 [workarounds]
-as_legacy_fullscreen = true
-as_firefox_menu_fix = true
+as_legacy_fullscreen = false
+as_firefox_menu_fix = false
 as_ooo_menu_fix = true
-as_notification_daemon_fix = true
+as_notification_daemon_fix = false
 as_java_fix = true
-as_java_taskbar_fix = true
-as_qt_fix = true
-as_convert_urgency = true
+as_java_taskbar_fix = false
+as_qt_fix = false
+as_convert_urgency = false
 as_aiglx_fragment_fix = true
-as_fglrx_xgl_fix = true
+as_fglrx_xgl_fix = false
 as_force_glx_sync = true
-as_sticky_alldesktops = true
+as_sticky_alldesktops = false
 as_alldesktop_sticky_match = any
 
 [put]
@@ -776,25 +776,25 @@ s0_open_effects = animation:Zoom;animation:Fade;animation:Fade;
 s0_open_durations = 200;150;150;
 s0_open_matches = (type=Normal | Dialog | ModalDialog | Unknown) & !(name=mate-screensaver);(type=Menu | PopupMenu | DropdownMenu);(type=Tooltip | Notification | Utility) & !(name=compiz) & !(title=notify-osd);
 s0_open_options = ;;;
-s0_open_random_effects = animation:Fade;animation:Dream;animation:Zoom;
+s0_open_random_effects = 
 s0_close_effects = animation:Zoom;animation:Fade;animation:Fade;
 s0_close_durations = 200;150;150;
 s0_close_matches = (type=Normal | Dialog | ModalDialog | Unknown) & !(name=mate-screensaver);(type=Menu | PopupMenu | DropdownMenu);(type=Tooltip | Notification | Utility) & !(name=compiz) & !(title=notify-osd);
 s0_close_options = ;;;
-s0_close_random_effects = animation:Fade;animation:Dream;animation:Zoom;
-s0_minimize_effects = animation:Zoom;
+s0_close_random_effects = 
+s0_minimize_effects = animation:Magic Lamp;
 s0_minimize_durations = 300;
 s0_minimize_matches = (type=Normal | Dialog | ModalDialog | Unknown);
 s0_minimize_options = ;
-s0_minimize_random_effects = animation:Fade;animation:Zoom;
+s0_minimize_random_effects = 
 s0_shade_effects = animation:Roll Up;
 s0_shade_durations = 300;
 s0_shade_matches = (type=Normal | Dialog | ModalDialog | Utility | Unknown);
 s0_shade_options = ;
-s0_shade_random_effects = animation:Roll Up;
-s0_focus_effects = animation:Wave;
-s0_focus_durations = 50;
-s0_focus_matches = (any) | class=any;
+s0_shade_random_effects = 
+s0_focus_effects = animation:None;
+s0_focus_durations = 300;
+s0_focus_matches = (type=Normal | Dialog | ModalDialog | Utility | Unknown) & !(name=compiz);
 s0_focus_options = ;
 s0_curved_fold_amp_mult = 1.000000
 s0_curved_fold_zoom_to_taskbar = true
@@ -830,10 +830,10 @@ s0_all_random = false
 s0_time_step = 10
 
 [showmouse]
-as_initiate = Disabled
-as_initiate_button = <BottomEdge>Button1
-as_initiate_edge = 
-s0_num_particles = 268
+as_initiate = <Super>k
+as_initiate_button = Disabled
+as_initiate_edge = Left|Right|Top|Bottom|TopLeft|TopRight|BottomLeft|BottomRight
+s0_num_particles = 200
 s0_size = 10.000000
 s0_slowdown = 1.000000
 s0_life = 0.700000
@@ -842,7 +842,7 @@ s0_blend = true
 s0_color = #ffdf3fff
 s0_random = false
 s0_rotation_speed = 0.500000
-s0_radius = 100
+s0_radius = 10
 s0_emiters = 3
 
 [maximumize]
@@ -891,7 +891,7 @@ as_snow_direction = 0
 as_snow_textures = star/star.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = <Control><Primary>F12
+as_toggle_key = <Super>F3
 
 [ghost]
 as_ghost_toggle_key = Disabled
@@ -901,7 +901,7 @@ as_ghost_toggle_window_button = Disabled
 as_window_types = state=above & type=normal
 as_ghost_active = true
 as_fade_on_mouseover = false
-as_speed = 6.000000
+as_speed = 16.000000
 as_opacity = 30.000000
 as_saturation = 30.000000
 as_brightness = 80.000000
@@ -1113,9 +1113,9 @@ as_stroke_width = 3.000000
 
 [obs]
 as_opacity_increase_key = Disabled
-as_opacity_increase_button = Disabled
+as_opacity_increase_button = <Alt>Button4
 as_opacity_decrease_key = Disabled
-as_opacity_decrease_button = Disabled
+as_opacity_decrease_button = <Alt>Button5
 as_brightness_increase_key = Disabled
 as_brightness_increase_button = Disabled
 as_brightness_decrease_key = Disabled
@@ -1125,8 +1125,8 @@ as_saturation_increase_button = Disabled
 as_saturation_decrease_key = Disabled
 as_saturation_decrease_button = Disabled
 s0_opacity_step = 5
-s0_opacity_matches = ;
-s0_opacity_values = 0;
+s0_opacity_matches = 
+s0_opacity_values = 
 s0_brightness_step = 5
 s0_brightness_matches = 
 s0_brightness_values = 
@@ -1249,7 +1249,7 @@ as_snow_direction = 0
 as_snow_textures = snow/snowflake.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = Disabled
+as_toggle_key = <Super>F3
 
 [firepaint]
 as_initiate_key = Disabled
@@ -1312,12 +1312,12 @@ s0_bg_brightness = 50
 s0_bg_saturation = 100
 
 [rotate]
-as_edge_flip_pointer = false
-as_edge_flip_window = false
-as_edge_flip_dnd = false
+as_edge_flip_pointer = true
+as_edge_flip_window = true
+as_edge_flip_dnd = true
 as_flip_time = 350
 as_raise_on_rotate = true
-as_initiate_button = Disabled
+as_initiate_button = <Control><Primary><Alt>Button1
 as_rotate_left_key = <Control><Primary><Alt>Left
 as_rotate_left_button = Disabled
 as_rotate_right_key = <Control><Primary><Alt>Right
@@ -1357,7 +1357,7 @@ as_rotate_to_12_window_key = Disabled
 s0_invert_y = false
 s0_invert_x = false
 s0_sensitivity = 1.000000
-s0_acceleration = 1.000000
+s0_acceleration = 4.000000
 s0_snap_top = true
 s0_snap_bottom = true
 s0_speed = 2.000000
@@ -1368,10 +1368,10 @@ s0_zoom = 0.000000
 as_shadow_radius = 8.000000
 as_shadow_opacity = 0.500000
 as_shadow_color = #00000000
-as_shadow_x_offset = 0
-as_shadow_y_offset = 0
+as_shadow_x_offset = 1
+as_shadow_y_offset = 1
 as_command = emerald --replace
-as_mipmap = true
+as_mipmap = false
 as_decoration_match = any
 as_shadow_match = any
 
@@ -1548,7 +1548,7 @@ as_prev_key = <Shift><Super>Tab
 as_prev_button = Disabled
 as_next_all_key = <Alt><Super>Tab
 as_next_all_button = Disabled
-as_prev_all_key = <Shift><Alt><Super>Tab
+as_prev_all_key = Disabled
 as_prev_all_button = Disabled
 as_next_group_key = Disabled
 as_next_group_button = Disabled
@@ -1584,40 +1584,40 @@ s0_title_font_color = #ffffffff
 s0_title_text_placement = 2
 
 [cube]
-as_unfold_key = Disabled
-as_next_slide_key = Disabled
+as_unfold_key = <Control><Primary><Alt>Down
+as_next_slide_key = space
 as_prev_slide_key = Disabled
 s0_mipmap = true
 s0_multioutput_mode = 0
-s0_in = false
+s0_in = true
 s0_acceleration = 4.000000
-s0_speed = 3.000000
-s0_timestep = 2.000000
-s0_color = #00246bff
+s0_speed = 1.500000
+s0_timestep = 1.200000
+s0_color = #00194aff
 s0_scale_image = true
 s0_images = debian-logo;
 s0_adjust_image = true
 s0_skydome = true
 s0_skydome_image = /home/loop/Bilder/Multi_Universe.jpg
 s0_skydome_animated = true
-s0_skydome_gradient_start_color = #006d10ff
-s0_skydome_gradient_end_color = #6a0014ff
+s0_skydome_gradient_start_color = #0db1fdff
+s0_skydome_gradient_end_color = #feffc7ff
 s0_active_opacity = 70.000000
 s0_inactive_opacity = 100.000000
-s0_transparent_manual_only = true
+s0_transparent_manual_only = false
 
 [static]
 s0_window_match = Dock
 
 [zoom]
-as_initiate_button = Disabled
-as_zoom_in_button = Disabled
-as_zoom_out_button = Disabled
-as_zoom_pan_button = Disabled
+as_initiate_button = <Super>Button3
+as_zoom_in_button = <Super>Button4
+as_zoom_out_button = <Super>Button5
+as_zoom_pan_button = <Super>Button2
 s0_speed = 1.500000
 s0_timestep = 1.200000
 s0_zoom_factor = 2.000000
-s0_filter_linear = true
+s0_filter_linear = false
 
 [smartput]
 as_trigger_key = <Shift><Super>KP_Multiply
@@ -1721,7 +1721,7 @@ as_disable_limiter = true
 as_output_screen = true
 as_position_x = 0
 as_position_y = 0
-as_output_console = true
+as_output_console = false
 as_console_update_time = 5
 
 [animationsim]
