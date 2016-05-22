@@ -1,0 +1,246 @@
+GDESKLETS(dp1
+S'id1463825778941430CONFIG dow_font'
+p2
+(S'Sans Bold 8'
+S'string'
+p3
+tp4
+sS'id14638262859462105CONFIG Dsp.date.color'
+p5
+(S'#FFC000FF'
+g3
+tp6
+sS'id1463825778941430CONFIG date_font'
+p7
+(S'Sans Bold 9'
+g3
+tp8
+sS'id14638262859462105CONFIG tz_city'
+p9
+(S'Berlin'
+g3
+tp10
+sS'id14638262859462105CONFIG Dsp.tz.font'
+p11
+(S'Sans Bold 9'
+g3
+tp12
+sS'id1463825778941430CONFIG lang'
+p13
+(S'de'
+g3
+tp14
+sS'id14638262859462105CONFIG Dsp.tz.color'
+p15
+(S'#FF9600FF'
+g3
+tp16
+sS'id14638261527258434CONFIG quote_font_color'
+p17
+(S'#FFFFFFFF'
+g3
+tp18
+sS'id1463825778941430CONFIG my_sep'
+p19
+(V / 
+g3
+tp20
+sS'id1463825778941430CONFIG month_font_colour'
+p21
+(S'#FFC000FF'
+g3
+tp22
+sS'id14638262859462105CONFIG clockface'
+p23
+(Vtux.png
+g3
+tp24
+sS'id1463825778941430CONFIG dow_font_colour'
+p25
+(S'#DC0073FF'
+g3
+tp26
+sS'id1463825778941430CONFIG date_font_colour'
+p27
+(S'#CBFEFFFF'
+g3
+tp28
+sS'id14638262859462105CONFIG hand_hour_style'
+p29
+(VRound
+g3
+tp30
+sS'id1463825778941430CONFIG bg_colour'
+p31
+(S'#003A52FF'
+g3
+tp32
+sS'id1463825778941430CONFIG frame_colour'
+p33
+(S'#002332FF'
+g3
+tp34
+sS'id14638261527258434CONFIG interval'
+p35
+(Vhourly
+g3
+tp36
+sS'id14638262859462105CONFIG tz_continent'
+p37
+(VEurope
+g3
+tp38
+sS'__default__ authorized_commands'
+p39
+(dp40
+sS'id14638261527258434CONFIG size'
+p41
+(S'220.0'
+S'float'
+p42
+tp43
+sS'id1463825778941430CONFIG EventsSet'
+p44
+(S'ge'
+g3
+tp45
+sS'id14638262859462105CONFIG hand_color_sec'
+p46
+(S'#006ACCFF'
+g3
+tp47
+sS'id1463825778941430CONFIG event_col'
+p48
+(S'#00AF48FF'
+g3
+tp49
+sS'id1463825778941430CONFIG evs'
+p50
+(I01
+S'bool'
+p51
+tp52
+sS'id1463825778941430CONFIG event_text_colour'
+p53
+(S'#C1FFB2FF'
+g3
+tp54
+sS'id14638262859462105CONFIG hand_color'
+p55
+(S'#3E47A6FF'
+g3
+tp56
+sS'id14638261527258434CONFIG background_image_visible'
+p57
+(I00
+g51
+tp58
+sS'id14638262859462105CONFIG Dsp.date.visible'
+p59
+(I01
+g51
+tp60
+sS'id14638261527258434CONFIG qauthor_font'
+p61
+(S'Sans Bold 7'
+g3
+tp62
+sS'id14638262859462105CONFIG Dsp.date.font'
+p63
+(S'Sans Bold 10'
+g3
+tp64
+sS'id14638261527258434CONFIG quote_font'
+p65
+(S'Serif Bold Italic 9'
+g3
+tp66
+sS'id1463825778941430CONFIG background_image_visible'
+p67
+(I00
+g51
+tp68
+sS'id14638262859462105CONFIG Dsp.tz.visible'
+p69
+(I01
+g51
+tp70
+sS'id14638261527258434CONFIG database'
+p71
+(V1
+g3
+tp72
+sS'id1463825778941430CONFIG month_image_visible'
+p73
+(I00
+g51
+tp74
+sS'id1463825778941430CONFIG month_font'
+p75
+(S'Sans Bold 12'
+g3
+tp76
+sS'id14638261527258434CONFIG qauthor_font_color'
+p77
+(S'#CECECEFF'
+g3
+tp78
+sS'id1463825778941430CONFIG today_col'
+p79
+(S'#FFE500FF'
+g3
+tp80
+sS'id14638262859462105CONFIG size'
+p81
+(S'2.25'
+g42
+tp82
+sS'__default__ positions'
+p83
+(dp84
+S'id14638261527258434'
+p85
+(I393
+I457
+tp86
+sS'id1463825778941430'
+p87
+(I446
+I138
+tp88
+sS'id1463826137812426'
+p89
+(I427
+I394
+tp90
+sS'id14638262859462105'
+p91
+(I783
+I138
+tp92
+sS'id1463830330294935'
+p93
+(I485
+I284
+tp94
+sS'id1463830307325900'
+p95
+(I676
+I505
+tp96
+sS'id14638303112042023'
+p97
+(I479
+I199
+tp98
+ssS'id1463825778941430CONFIG image_of_month'
+p99
+(I01
+g51
+tp100
+sS'id1463825778941430CONFIG monthframe_visible'
+p101
+(I01
+g51
+tp102
+s.

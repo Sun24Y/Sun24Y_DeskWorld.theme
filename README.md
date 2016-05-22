@@ -4,7 +4,7 @@ Linux Debian custom desktop environment
 This GIT contains different configuration files for the desktop environment, using following applications for an enhanced UX (=user experience):
   
 + Compiz desktop-area management
-+ Emerald window-manager for decoratons and color gradients
++ Emerald window-manager for decorations and color gradients
 + Cairo-Dock enhanced menu-application for an advanced user-experience
 + Screenlets for advanced information panels within the screen
   

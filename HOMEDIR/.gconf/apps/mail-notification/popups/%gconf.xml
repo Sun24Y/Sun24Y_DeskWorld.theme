@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="position" mtime="1463524069" type="string">
+		<stringvalue>free</stringvalue>
+	</entry>
+</gconf>

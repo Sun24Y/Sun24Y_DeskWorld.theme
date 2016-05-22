@@ -1,0 +1,14 @@
+[properties]
+black_on_white=false
+pango_font=
+scrollback=1000
+error_box=false
+info_box=true
+blinking_cursor=true
+output_remember=false
+max_errors=5
+max_nodes=2000000
+precision_remember=false
+
+[plugins]
+plugin_restore_test=NO

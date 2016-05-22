@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="delay-2" mtime="1463524077" type="int" value="4"/>
+	<entry name="enabled" mtime="1463524074" type="string">
+		<stringvalue>true</stringvalue>
+	</entry>
+</gconf>

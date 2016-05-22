@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="messages-considered-as-read" mtime="1463856802" type="list" ltype="string">
+	</entry>
+	<entry name="click-action-3" mtime="1463524065" type="string">
+		<stringvalue>open-latest-message</stringvalue>
+	</entry>
+</gconf>

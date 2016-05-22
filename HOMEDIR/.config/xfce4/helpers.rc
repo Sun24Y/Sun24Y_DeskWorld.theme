@@ -1,0 +1,5 @@
+WebBrowser=debian-sensible-browser
+MailReader=evolution
+TerminalEmulator=debian-x-terminal-emulator
+FileManager=nautilus
+

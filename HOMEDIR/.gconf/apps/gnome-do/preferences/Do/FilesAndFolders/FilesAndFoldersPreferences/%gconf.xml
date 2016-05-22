@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="IncludeHiddenFilesWhenBrowsing" mtime="1463847782" type="bool" value="true"/>
+	<entry name="IncludeHiddenFiles" mtime="1463551747" type="bool" value="false"/>
+	<entry name="LimitMaximumFilesIndexed" mtime="1463551747" type="bool" value="true"/>
+</gconf>

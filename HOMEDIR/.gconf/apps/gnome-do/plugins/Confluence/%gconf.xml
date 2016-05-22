@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="maxSearchResults" mtime="1463847641" type="string">
+		<stringvalue>20</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="spacecraft" mtime="1463585644" type="bool" value="true"/>
+	<entry name="asteroid" mtime="1463585642" type="bool" value="true"/>
+	<entry name="comet" mtime="1463585641" type="bool" value="true"/>
+	<entry name="moon" mtime="1463585415" type="bool" value="true"/>
+	<entry name="planet" mtime="1463585415" type="bool" value="true"/>
+</gconf>

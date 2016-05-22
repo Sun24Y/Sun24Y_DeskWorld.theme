@@ -1,1 +1,532 @@
-/home/loop/.gtkrc-2.0-gnome-color-chooser
+pixmap_path "/home/loop/.gnome-color-chooser/images/"
+
+
+style "gnome-color-chooser-compact"
+{
+  GtkContainer::border_width=0
+  GtkButton::default_border    = { 0, 0, 0, 0 }
+  GtkButton::interior-focus = 0
+  GtkButton::focus-padding = 0
+  GtkButton::focus-line-width = 0
+  GtkButton::focus-line-height = 0
+  GtkButton::inner-border      = {2, 1, 1, 2}
+  
+#  GtkRange       ::trough_border     = 0
+#  GtkPaned       ::handle_size       = 3
+#  GtkRange       ::slider_width      = 12
+#  GtkRange       ::stepper_size      = 12
+#  GtkOptionMenu::indicator_spacing = { 0, 0, 0, 0 }
+#  GtkOptionMenu::indicator_size = { 16, 18 }
+  
+#  GtkEntry	 ::inner-border	     = { 0, 0, 0, 0 }
+
+#  GtkNotebook::tab-border = 0
+#  GtkNotebook::tab-hborder = 0
+#  GtkNotebook::tab-vborder = 0
+#  GtkNotebook::show-border = 0
+#  GtkNotebook::gtk-button-images = 0
+#  GtkNotebook::gtk-menu-images = 0
+#  GtkNotebook::arrow-spacing = 0
+#  GtkNotebook::tab-curvature = 0
+#  GtkNotebook::tab-overlap = 0
+#  GtkNotebook::focus-line-width = 0
+  
+  
+#  GtkScrollbar   ::min_slider_length = 30
+#  GtkScale       ::slider-length     = 27
+#  GtkCheckButton ::indicator_size    = 12   # for tinyphil people
+# GtkMenuBar     ::internal-padding  = 0
+#  GtkExpander    ::expander_size     = 12
+#  GtkComboBox    ::appears-as-list = 1      # as gnomecc option!
+  GtkComboBox    ::arrow-size = 4
+    
+  GtkButton      ::child-displacement-x = 0
+  GtkButton      ::child-displacement-y = 0
+  GtkButtonBox   ::child-min-height=18
+  GtkButtonBox   ::child-min-width=18
+  GtkButtonBox   ::child-internal-pad-x=1
+  GtkButtonBox   ::child-internal-pad-y=1
+
+#  WnckTasklist   ::fade-overlay-rect = 0
+
+  GtkTreeView::expander-size = 9
+#  GtkTreeView::expander-indent = 0
+  GtkTreeView::focus-line-width = 0
+#  GtkTreeView::spacing = 0
+  GtkTreeView::horizontal-separator = 0
+  GtkTreeView::vertical-separator = 0
+#  GtkTreeView::row-ending-details = 0
+#  GtkTreeView::treeview-left=1
+#  GtkTreeView::treeview-right=0
+#  GtkTreeView::treeview-middle=0
+#  GtkTreeView::passive_focus = 0
+#  GtkTreeView::separator-height = 0
+#  GtkTreeView::tree-line-pattern = "\000\000"
+#  GtkTreeView::grid-line-pattern = "\000\000"
+#  GtkTreeView::grid-line-width = 0
+#  GtkTreeView::tree-line-width = 0
+
+
+  
+#  GtkCheckButton::indicator-spacing=0
+#  GtkCheckButton::indicator-size=13
+#  GtkCheckMenuItem::indicator-size=13
+    
+  xthickness = 1
+  ythickness = 1
+}
+class "GtkWidget" style "gnome-color-chooser-compact"
+
+style "gnome-color-chooser-compact-tooltips"
+{
+  xthickness = 4
+  ythickness = 4
+}
+widget "gtk-tooltip*" style "gnome-color-chooser-compact-tooltips"
+  
+
+style "gnome-color-chooser-default"
+{
+  engine "murrine"
+  {
+    animation = TRUE
+    arrowstyle = 2
+    colorize_scrollbar = TRUE
+    cellstyle = 1
+    comboboxstyle = 1
+    contrast = 1.0
+    default_button_color = "#FFEE00"
+    expanderstyle = 2
+    focus_color = "#098500"
+    focusstyle = 3
+    glazestyle = 4
+    glow_shade = 1.0
+    glowstyle = 4
+    handlestyle = 2
+    highlight_shade = 1.1
+    lightborder_shade = 1.1
+    lightborderstyle = 1
+    listviewheaderstyle = 1
+    listviewstyle = 2
+    menubaritemstyle = 1
+    menubarstyle = 1
+    menuitemstyle = 1
+    menustyle = 3
+    prelight_shade = 1.0
+    progressbarstyle = 2
+    reliefstyle = 3
+    rgba = TRUE
+    roundness = 2
+    scrollbarstyle = 1
+    separatorstyle = 1
+    sliderstyle = 1
+    spinbuttonstyle = 1
+    stepperstyle = 3
+    textstyle = 1
+    text_shade = 1.06
+    toolbarstyle = 1
+  }
+
+  bg[NORMAL] = "#404040"
+  bg[PRELIGHT] = "#7C0012"
+  bg[SELECTED] = "#B53300"
+  bg[ACTIVE] = "#7C0012"
+  bg[INSENSITIVE] = "#3E3E3E"
+  fg[NORMAL] = "#FFC000"
+  fg[PRELIGHT] = "#00FF00"
+  fg[SELECTED] = "#FFFFFF"
+  fg[ACTIVE] = "#FFFF00"
+  fg[INSENSITIVE] = "#888888"
+  base[NORMAL] = "#881122"
+  base[PRELIGHT] = "#7C0012"
+  base[SELECTED] = "#545454"
+  base[ACTIVE] = "#7C0011"
+  base[INSENSITIVE] = "#3E3E3E"
+  text[NORMAL] = "#FFC000"
+  text[PRELIGHT] = "#00FF00"
+  text[SELECTED] = "#FFFFFF"
+  text[ACTIVE] = "#FFFF00"
+  text[INSENSITIVE] = "#888888"
+  xthickness = 3
+  ythickness = 3
+  bg_pixmap[NORMAL] = "56"
+  bg_pixmap[PRELIGHT] = "57"
+  bg_pixmap[INSENSITIVE] = "60"
+  GtkWidget::link-color = "#00E648"
+  GtkWidget::visited-link-color = "#009635"
+}
+class "GtkWidget" style "gnome-color-chooser-default"
+
+style "gnome-color-chooser-desktop-icon"
+{
+  engine "murrine"
+  {
+    animation = TRUE
+    arrowstyle = 2
+    colorize_scrollbar = TRUE
+    cellstyle = 1
+    comboboxstyle = 1
+    contrast = 1.0
+    default_button_color = "#8700D6"
+    expanderstyle = 2
+    focus_color = "#FF008A"
+    focusstyle = 3
+    glazestyle = 4
+    glow_shade = 1.0
+    glowstyle = 2
+    handlestyle = 2
+    highlight_shade = 1.1
+    lightborder_shade = 1.1
+    lightborderstyle = 1
+    listviewheaderstyle = 1
+    listviewstyle = 1
+    menubaritemstyle = 1
+    menubarstyle = 1
+    menuitemstyle = 1
+    menustyle = 3
+    prelight_shade = 1.0
+    progressbarstyle = 2
+    reliefstyle = 3
+    rgba = TRUE
+    roundness = 1
+    scrollbarstyle = 1
+    separatorstyle = 1
+    sliderstyle = 1
+    spinbuttonstyle = 1
+    stepperstyle = 1
+    textstyle = 1
+    text_shade = 1.06
+    toolbarstyle = 1
+  }
+
+  NautilusIconContainer::frame_text = 1
+  text[NORMAL] = "#FF0065"
+  base[NORMAL] = "#7C0012"
+  NautilusIconContainer::normal_alpha = 0
+  NautilusIconContainer::normal_icon_render_mode = 0
+  NautilusIconContainer::prelight_icon_render_mode = 1
+  NautilusIconContainer::normal_icon_color = "#8B83BF"
+  NautilusIconContainer::prelight_icon_color = "#1C106D"
+  NautilusIconContainer::normal_icon_saturation = 150
+  NautilusIconContainer::prelight_icon_saturation = 255
+  NautilusIconContainer::normal_icon_brightness = 200
+  NautilusIconContainer::prelight_icon_brightness = 255
+  NautilusIconContainer::selection_box_color = "#5C0037"
+  NautilusIconContainer::selection_box_alpha = 100
+  NautilusIconContainer::normal_icon_lighten = 0
+  NautilusIconContainer::prelight_icon_lighten = 25
+  NautilusIconContainer::activate_prelight_icon_label = 1
+  text[PRELIGHT] = "#FF00EC"
+  base[PRELIGHT] = "#940015"
+  NautilusIconContainer::prelight_alpha = 255
+}
+widget_class "*DesktopIcon*" style "gnome-color-chooser-desktop-icon"
+
+style "gnome-color-chooser-panel"
+{
+  engine "murrine"
+  {
+    animation = TRUE
+    arrowstyle = 2
+    colorize_scrollbar = TRUE
+    cellstyle = 1
+    comboboxstyle = 1
+    contrast = 1.0
+    default_button_color = "#434FCC"
+    expanderstyle = 2
+    focus_color = "#58B3B9"
+    focusstyle = 2
+    glazestyle = 4
+    glow_shade = 1.0
+    glowstyle = 0
+    handlestyle = 2
+    highlight_shade = 1.1
+    lightborder_shade = 1.1
+    lightborderstyle = 0
+    listviewheaderstyle = 0
+    listviewstyle = 0
+    menubaritemstyle = 0
+    menubarstyle = 0
+    menuitemstyle = 0
+    menustyle = 1
+    prelight_shade = 1.0
+    progressbarstyle = 1
+    reliefstyle = 2
+    rgba = TRUE
+    roundness = 1
+    scrollbarstyle = 2
+    separatorstyle = 1
+    sliderstyle = 1
+    spinbuttonstyle = 1
+    stepperstyle = 2
+    textstyle = 1
+    text_shade = 1.06
+    toolbarstyle = 1
+  }
+
+  bg[NORMAL] = "#7C0012"
+  bg[PRELIGHT] = "#9C2738"
+  bg[SELECTED] = "#005304"
+  bg[ACTIVE] = "#7C0012"
+  bg[INSENSITIVE] = "#3E3E3E"
+  fg[NORMAL] = "#FFE080"
+  fg[PRELIGHT] = "#00D000"
+  fg[SELECTED] = "#FFFFFF"
+  fg[ACTIVE] = "#FFC000"
+  fg[INSENSITIVE] = "#888888"
+  xthickness = 1
+  ythickness = 1
+  font_name = "Sans Bold 7"
+  bg_pixmap[NORMAL] = "55"
+}
+class "PanelTopLevel.*" style "gnome-color-chooser-panel"
+widget_class "*PanelApplet*" style "gnome-color-chooser-panel"
+widget_class "*PanelWidget*" style "gnome-color-chooser-panel"
+widget "*fast-user-switch-applet*" style "gnome-color-chooser-panel"
+
+style "gnome-color-chooser-startmenue"
+{
+  engine "murrine"
+  {
+    animation = TRUE
+    arrowstyle = 0
+    colorize_scrollbar = TRUE
+    cellstyle = 1
+    comboboxstyle = 0
+    contrast = 1.0
+    default_button_color = "#FF8900"
+    expanderstyle = 2
+    focus_color = "#FFC000"
+    focusstyle = 3
+    glazestyle = 4
+    glow_shade = 1.0
+    glowstyle = 5
+    handlestyle = 1
+    highlight_shade = 1.1
+    lightborder_shade = 1.1
+    lightborderstyle = 1
+    listviewheaderstyle = 1
+    listviewstyle = 2
+    menubaritemstyle = 1
+    menubarstyle = 1
+    menuitemstyle = 1
+    menustyle = 2
+    prelight_shade = 1.0
+    progressbarstyle = 2
+    reliefstyle = 3
+    rgba = TRUE
+    roundness = 4
+    scrollbarstyle = 6
+    separatorstyle = 1
+    sliderstyle = 1
+    spinbuttonstyle = 1
+    stepperstyle = 2
+    textstyle = 1
+    text_shade = 1.06
+    toolbarstyle = 1
+  }
+
+  bg[NORMAL] = "#7C0012"
+  bg[SELECTED] = "#FFC000"
+  fg[NORMAL] = "#FFFFFF"
+  fg[PRELIGHT] = "#00D000"
+  xthickness = 1
+  ythickness = 1
+  font_name = "Sans Bold 8"
+  bg_pixmap[NORMAL] = "214"
+}
+widget "GtkWindow.gnome-panel-main-menu*" style "gnome-color-chooser-startmenue"
+
+style "gnome-color-chooser-window-decoration-with_compiz"
+{
+  fg[NORMAL] = "#800007"
+  fg[SELECTED] = "#013C00"
+  bg[NORMAL] = "#C83333"
+  bg[SELECTED] = "#65AC73"
+}
+class "MetaFrames" style "gnome-color-chooser-window-decoration-with_compiz"
+
+style "gnome-color-chooser-window-decoration"
+{
+  fg[NORMAL] = "#880074"
+  bg[SELECTED] = "#590052"
+}
+class "GtkWindow" style "gnome-color-chooser-window-decoration"
+
+style "gnome-color-chooser-scrollbar"
+{
+  engine "murrine"
+  {
+  }
+
+  bg[NORMAL] = "#0091C2"
+  bg[PRELIGHT] = "#417AFF"
+  bg[ACTIVE] = "#00DFFF"
+  GtkScrollbar::slider_width = 15
+  GtkScrollbar::stepper_size = 15
+}
+widget_class "*Scrollbar" style "gnome-color-chooser-scrollbar"
+
+style "gnome-color-chooser-progressbar"
+{
+  engine "murrine"
+  {
+    animation = TRUE
+    arrowstyle = 0
+    colorize_scrollbar = TRUE
+    cellstyle = 1
+    comboboxstyle = 0
+    contrast = 1.0
+    default_button_color = "#000000"
+    expanderstyle = 0
+    focus_color = "#000000"
+    focusstyle = 2
+    glazestyle = 0
+    glow_shade = 1.0
+    glowstyle = 0
+    handlestyle = 0
+    highlight_shade = 1.1
+    lightborder_shade = 1.1
+    lightborderstyle = 0
+    listviewheaderstyle = 0
+    listviewstyle = 0
+    menubaritemstyle = 0
+    menubarstyle = 0
+    menuitemstyle = 0
+    menustyle = 1
+    prelight_shade = 1.0
+    progressbarstyle = 1
+    reliefstyle = 2
+    rgba = TRUE
+    roundness = 1
+    scrollbarstyle = 0
+    separatorstyle = 0
+    sliderstyle = 0
+    spinbuttonstyle = 0
+    stepperstyle = 0
+    textstyle = 0
+    text_shade = 1.06
+    toolbarstyle = 0
+  }
+
+  bg[SELECTED] = "#FFF600"
+  xthickness = 1
+  ythickness = 1
+}
+class "GtkProgressBar" style "gnome-color-chooser-progressbar"
+
+style "gnome-color-chooser-tooltips"
+{
+  engine "murrine"
+  {
+    animation = TRUE
+    arrowstyle = 2
+    colorize_scrollbar = TRUE
+    cellstyle = 1
+    comboboxstyle = 1
+    contrast = 1.0
+    default_button_color = "#0E7C00"
+    expanderstyle = 1
+    focus_color = "#FFC200"
+    focusstyle = 2
+    glazestyle = 2
+    glow_shade = 1.0
+    glowstyle = 2
+    handlestyle = 0
+    highlight_shade = 1.1
+    lightborder_shade = 1.1
+    lightborderstyle = 1
+    listviewheaderstyle = 2
+    listviewstyle = 1
+    menubaritemstyle = 1
+    menubarstyle = 1
+    menuitemstyle = 1
+    menustyle = 3
+    prelight_shade = 1.0
+    progressbarstyle = 2
+    reliefstyle = 4
+    rgba = TRUE
+    roundness = 4
+    scrollbarstyle = 2
+    separatorstyle = 1
+    sliderstyle = 1
+    spinbuttonstyle = 1
+    stepperstyle = 3
+    textstyle = 1
+    text_shade = 1.06
+    toolbarstyle = 1
+  }
+
+  bg[NORMAL] = "#D9BB3E"
+  fg[NORMAL] = "#520200"
+}
+widget "gtk-tooltip*" style "gnome-color-chooser-tooltips"
+
+style "gnome-color-chooser-button"
+{
+  engine "murrine"
+  {
+    animation = TRUE
+    arrowstyle = 0
+    colorize_scrollbar = TRUE
+    cellstyle = 1
+    comboboxstyle = 0
+    contrast = 1.0
+    default_button_color = "#FF4A00"
+    expanderstyle = 0
+    focus_color = "#FFDE00"
+    focusstyle = 2
+    glazestyle = 0
+    glow_shade = 1.0
+    glowstyle = 0
+    handlestyle = 2
+    highlight_shade = 1.1
+    lightborder_shade = 1.1
+    lightborderstyle = 0
+    listviewheaderstyle = 0
+    listviewstyle = 0
+    menubaritemstyle = 0
+    menubarstyle = 0
+    menuitemstyle = 0
+    menustyle = 1
+    prelight_shade = 1.0
+    progressbarstyle = 1
+    reliefstyle = 2
+    rgba = TRUE
+    roundness = 6
+    scrollbarstyle = 0
+    separatorstyle = 0
+    sliderstyle = 0
+    spinbuttonstyle = 0
+    stepperstyle = 0
+    textstyle = 0
+    text_shade = 1.06
+    toolbarstyle = 0
+  }
+
+  xthickness = 2
+  ythickness = 2
+  bg[NORMAL] = "#3C3C3C"
+  bg[PRELIGHT] = "#7C0012"
+  bg[SELECTED] = "#FFFFFF"
+  bg[ACTIVE] = "#008600"
+  bg[INSENSITIVE] = "#3D3D3D"
+  fg[NORMAL] = "#BF9000"
+  fg[PRELIGHT] = "#FFCC00"
+  fg[ACTIVE] = "#FFFFFF"
+  fg[INSENSITIVE] = "#7F7F7F"
+  font_name = "Sans Bold 9"
+}
+widget_class "*.<GtkButton>*" style "gnome-color-chooser-button"
+
+style "gnome-color-chooser-combobox"
+{
+  text[NORMAL] = "#C29200"
+  text[PRELIGHT] = "#00FF00"
+  text[ACTIVE] = "#FFC000"
+  text[INSENSITIVE] = "#7C0012"
+}
+widget_class "*.<GtkComboBox>.<GtkCellView>" style "gnome-color-chooser-combobox"
+
+gtk-icon-sizes = "gtk-menu=12,12:panel-menu=24,24:gtk-large-toolbar=28,28:gtk-button=20,20:"
+

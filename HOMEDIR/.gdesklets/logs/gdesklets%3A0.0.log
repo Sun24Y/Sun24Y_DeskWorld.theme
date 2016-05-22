@@ -1,0 +1,197 @@
+Log messages of /home/loop/.gdesklets/logs/gdesklets%3A0.0.log
+
+==========================================================[05/21/16-13:31:47]===
+Adding "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id1463830307325900" to the desklet list.
+
+
+
+==========================================================[05/21/16-13:31:51]===
+Adding "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id14638303112042023" to the desklet list.
+
+
+
+==========================================================[05/21/16-13:31:51]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/21/16-13:31:51]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/21/16-13:31:52]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/21/16-13:31:52]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/21/16-13:32:10]===
+Adding "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id1463830330294935" to the desklet list.
+
+
+
+==========================================================[05/21/16-13:32:10]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Quote-of-the-Day/".
+
+
+
+==========================================================[05/21/16-13:32:10]===
+Couldn't read file /usr/lib/gdesklets/Displays/Quote-of-the-Day/.
+
+
+
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+
+==========================================================[05/21/16-13:32:37]===
+Removing "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id14638303112042023" from the desklet list.
+
+
+
+==========================================================[05/21/16-13:32:40]===
+Removing "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id1463830330294935" from the desklet list.
+
+
+
+==========================================================[05/21/16-13:32:40]===
+Adding "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id1463830330294935" to the desklet list.
+
+
+
+==========================================================[05/21/16-13:32:40]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Quote-of-the-Day/".
+
+
+
+==========================================================[05/21/16-13:32:40]===
+Couldn't read file /usr/lib/gdesklets/Displays/Quote-of-the-Day/.
+
+
+
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+
+==========================================================[05/21/16-13:32:44]===
+Removing "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id1463830307325900" from the desklet list.
+
+
+
+==========================================================[05/21/16-13:32:47]===
+Removing "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id1463830330294935" from the desklet list.
+
+
+
+==========================================================[05/21/16-13:32:55]===
+=== Unhandled error! Something bad and unexpected happened. ===
+
+[EXC]TrayIcon instance has no attribute '_TrayIcon__menu'
+in /usr/lib/gdesklets/main/TrayIcon.py: line 21 __on_button
+[EXC]/usr/lib/gdesklets/main/TrayIcon.py
+
+[---]   16 
+[---]   17 
+[---]   18 
+[---]   19     def __on_button(self, widget, button, time):
+[---]   20 
+[ERR]>  21         self.__menu.popup(None, None, gtk.status_icon_position_menu, button, time, self.__trayicon)
+[---]   22 
+[---]   23         if (button == 0):
+[---]   24             self.__menu.select_first(FALSE)
+[---]   25 
+[---]   26 
+[---]   27     def set_menu(self, items):
+
+
+
+==========================================================[05/21/16-13:32:56]===
+=== Unhandled error! Something bad and unexpected happened. ===
+
+[EXC]TrayIcon instance has no attribute '_TrayIcon__menu'
+in /usr/lib/gdesklets/main/TrayIcon.py: line 21 __on_button
+[EXC]/usr/lib/gdesklets/main/TrayIcon.py
+
+[---]   16 
+[---]   17 
+[---]   18 
+[---]   19     def __on_button(self, widget, button, time):
+[---]   20 
+[ERR]>  21         self.__menu.popup(None, None, gtk.status_icon_position_menu, button, time, self.__trayicon)
+[---]   22 
+[---]   23         if (button == 0):
+[---]   24             self.__menu.select_first(FALSE)
+[---]   25 
+[---]   26 
+[---]   27     def set_menu(self, items):
+
+
+
+==========================================================[05/21/16-13:33:23]===
+=== Unhandled error! Something bad and unexpected happened. ===
+
+[EXC]TrayIcon instance has no attribute '_TrayIcon__menu'
+in /usr/lib/gdesklets/main/TrayIcon.py: line 21 __on_button
+[EXC]/usr/lib/gdesklets/main/TrayIcon.py
+
+[---]   16 
+[---]   17 
+[---]   18 
+[---]   19     def __on_button(self, widget, button, time):
+[---]   20 
+[ERR]>  21         self.__menu.popup(None, None, gtk.status_icon_position_menu, button, time, self.__trayicon)
+[---]   22 
+[---]   23         if (button == 0):
+[---]   24             self.__menu.select_first(FALSE)
+[---]   25 
+[---]   26 
+[---]   27     def set_menu(self, items):
+
+
+
+==========================================================[05/21/16-13:41:48]===
+=== Unhandled error! Something bad and unexpected happened. ===
+
+[EXC]TrayIcon instance has no attribute '_TrayIcon__menu'
+in /usr/lib/gdesklets/main/TrayIcon.py: line 21 __on_button
+[EXC]/usr/lib/gdesklets/main/TrayIcon.py
+
+[---]   16 
+[---]   17 
+[---]   18 
+[---]   19     def __on_button(self, widget, button, time):
+[---]   20 
+[ERR]>  21         self.__menu.popup(None, None, gtk.status_icon_position_menu, button, time, self.__trayicon)
+[---]   22 
+[---]   23         if (button == 0):
+[---]   24             self.__menu.select_first(FALSE)
+[---]   25 
+[---]   26 
+[---]   27     def set_menu(self, items):
+
+
