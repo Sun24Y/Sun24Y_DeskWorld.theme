@@ -93,11 +93,11 @@ widget &quot;gtk-tooltip*&quot; style &quot;gnome-color-chooser-compact-tooltips
     <!-- Element: bg[NORMAL] -->
   <element id ="0" value="#404040"/>
     <!-- Element: bg[PRELIGHT] -->
-  <element id ="1" value="#7C0012" disabled="true"/>
+  <element id ="1" value="#7C0012"/>
     <!-- Element: bg[SELECTED] -->
-  <element id ="2" value="#B53300" disabled="true"/>
+  <element id ="2" value="#B53300"/>
     <!-- Element: bg[ACTIVE] -->
-  <element id ="3" value="#7C0012" disabled="true"/>
+  <element id ="3" value="#7C0012"/>
     <!-- Element: bg[INSENSITIVE] -->
   <element id ="4" value="#3E3E3E"/>
     <!-- Element: fg[NORMAL] -->
