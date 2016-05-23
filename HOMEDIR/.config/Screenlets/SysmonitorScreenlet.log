@@ -1,0 +1,104 @@
+CachingBackend: Lade Instanzen aus dem Cache
+CachingBackend: Lade <Sysmonitor1>
+Laufende Sitzung von Sysmonitor gefunden, füge neue Instanz durch den Dienst hinzu.
+Fehler in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Sysmonitor was not provided by any .service files
+Screenlet has already been added to /tmp/screenlets/screenlets.loop.running
+Lade Instanzen in: /home/loop/.config/Screenlets/Sysmonitor/default/
+Datei: Sysmonitor1.ini
+/home/loop/.config/Screenlets/Sysmonitor/default/Sysmonitor1
+LADE NEUES THEMA: default
+GEFUNDEN: /usr/share/screenlets/Sysmonitor/themes/default
+theme.conf found! Loading option-overrides.
+theme.conf geladen: 
+Name: default
+Autor Helder Fraga aka Whise
+Version: 1.0
+Info: Default theme
+Überschreibe: show_updown
+WARNUNG: Option 'show_updown' nicht gefunden oder geschützt.
+Überschreibe: show_time
+WARNUNG: Option 'show_time' nicht gefunden oder geschützt.
+Überschreibe: show_date
+WARNUNG: Option 'show_date' nicht gefunden oder geschützt.
+Überschreibe: show_kernel
+WARNUNG: Option 'show_kernel' nicht gefunden oder geschützt.
+Überschreibe: use_bg_image
+WARNUNG: Option 'use_bg_image' nicht gefunden oder geschützt.
+Überschreibe: show_bat_wir
+WARNUNG: Option 'show_bat_wir' nicht gefunden oder geschützt.
+Überschreibe: show_cpuname
+WARNUNG: Option 'show_cpuname' nicht gefunden oder geschützt.
+Überschreibe: font
+WARNUNG: Option 'font' nicht gefunden oder geschützt.
+Überschreibe: show_mem
+WARNUNG: Option 'show_mem' nicht gefunden oder geschützt.
+Überschreibe: show_cpus
+WARNUNG: Option 'show_cpus' nicht gefunden oder geschützt.
+Überschreibe: image_filename
+WARNUNG: Option 'image_filename' nicht gefunden oder geschützt.
+Überschreibe: color_graph
+WARNUNG: Option 'color_graph' nicht gefunden oder geschützt.
+Überschreibe: show_processes
+WARNUNG: Option 'show_processes' nicht gefunden oder geschützt.
+Überschreibe: show_swap
+WARNUNG: Option 'show_swap' nicht gefunden oder geschützt.
+Überschreibe: show_ip
+WARNUNG: Option 'show_ip' nicht gefunden oder geschützt.
+Überschreibe: show_frame
+WARNUNG: Option 'show_frame' nicht gefunden oder geschützt.
+Überschreibe: show_load
+WARNUNG: Option 'show_load' nicht gefunden oder geschützt.
+Überschreibe: color_background
+WARNUNG: Option 'color_background' nicht gefunden oder geschützt.
+Überschreibe: show_disks
+WARNUNG: Option 'show_disks' nicht gefunden oder geschützt.
+Überschreibe: show_distro
+WARNUNG: Option 'show_distro' nicht gefunden oder geschützt.
+Überschreibe: show_uptime
+WARNUNG: Option 'show_uptime' nicht gefunden oder geschützt.
+Überschreibe: expand
+WARNUNG: Option 'expand' nicht gefunden oder geschützt.
+Überschreibe: fontsize
+WARNUNG: Option 'fontsize' nicht gefunden oder geschützt.
+Überschreibe: color_text
+WARNUNG: Option 'color_text' nicht gefunden oder geschützt.
+Überschreibe: show_username
+WARNUNG: Option 'show_username' nicht gefunden oder geschützt.
+Setze Optionen in SysmonitorScreenlet
+LADE NEUES THEMA: default
+GEFUNDEN: /usr/share/screenlets/Sysmonitor/themes/default
+theme.conf found! Loading option-overrides.
+theme.conf geladen: 
+Name: default
+Autor Helder Fraga aka Whise
+Version: 1.0
+Info: Default theme
+Überschreibe: show_updown
+Überschreibe: show_time
+Überschreibe: show_date
+Überschreibe: show_kernel
+Überschreibe: use_bg_image
+Überschreibe: show_bat_wir
+Überschreibe: show_cpuname
+Überschreibe: font
+Überschreibe: show_mem
+Überschreibe: show_cpus
+Überschreibe: image_filename
+Überschreibe: color_graph
+Überschreibe: show_processes
+Überschreibe: show_swap
+Überschreibe: show_ip
+Überschreibe: show_frame
+Überschreibe: show_load
+Überschreibe: color_background
+Überschreibe: show_disks
+Überschreibe: show_distro
+Überschreibe: show_uptime
+Überschreibe: expand
+Überschreibe: fontsize
+WARNUNG: Option 'fontsize' nicht gefunden oder geschützt.
+Überschreibe: color_text
+Überschreibe: show_username
+i just got started
+
+Instanzen wiederhergestellt aus der Sitzung: 'default' ...

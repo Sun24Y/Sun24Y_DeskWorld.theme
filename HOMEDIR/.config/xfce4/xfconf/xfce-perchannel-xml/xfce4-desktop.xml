@@ -18,7 +18,7 @@
           <value type="uint" value="65535"/>
         </property>
         <property name="color-style" type="int" value="2"/>
-        <property name="image-path" type="string" value="/home/loop/Bilder/SunRay Wallpaper.jpg"/>
+        <property name="image-path" type="string" value="/home/loop/Bilder/Banner_Universe.jpg"/>
         <property name="image-show" type="empty"/>
         <property name="last-image" type="empty"/>
         <property name="last-single-image" type="empty"/>
@@ -40,7 +40,7 @@
             <value type="uint" value="65535"/>
           </property>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/loop/Bilder/Multi_Universe.jpg"/>
+          <property name="last-image" type="string" value="/home/loop/Bilder/Banner_Universe.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="2"/>

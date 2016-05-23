@@ -6,15 +6,31 @@
 			<Tab path="/home/loop" sort="1" asc="0" lock="0"/>
 		</Panel>
 		<Panel name="right">
-			<Tab path="/home/loop/Dokumente" sort="1" asc="0" lock="0"/>
+			<Tab path="/home/loop/Dokumente/Sun24Y_DeskWorld" sort="1" asc="0" lock="0"/>
 		</Panel>
 	</Layout>
 	<History>
 		<Directories>
-			<Directory path="/home/loop/Dokumente"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld"/>
 			<Directory path="/home/loop"/>
-			<Directory path="/home"/>
-			<Directory path="/"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/Applications"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/preconf_Emerald"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.choosewm"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/kde4"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/kde4/services"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/apps"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/config"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/Fonts"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/desktop"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/desktop/gnome"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/desktop/gnome/interface"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/apps"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/xfce4"/>
 		</Directories>
 	</History>
 	<AdvancedRenameTool>
@@ -63,7 +79,12 @@
 	<Connections>
 		<Connection name="GNOME Commander" uri="ftp://anonymous@ftp.gnome.org/pub/GNOME/sources/gnome-commander/" auth="3"/>
 	</Connections>
-	<Bookmarks/>
+	<Bookmarks>
+		<Group name="Home">
+			<Bookmark name="loop" path="/home/loop"/>
+			<Bookmark name="Sun24Y_DeskWorld" path="/home/loop/Dokumente/Sun24Y_DeskWorld"/>
+		</Group>
+	</Bookmarks>
 	<Selections/>
 	<KeyBindings>
 		<Key name="plus" shift="1" control="1" action="view.equal_panes"/>
@@ -113,19 +134,12 @@
 		<Key name="kp.subtract" control="1" action="mark.unselect_all"/>
 		<Key name="kp.5" control="1" action="plugins.execute_python" options="md5sum"/>
 		<Key name="f2" shift="1" action="mark.compare_directories"/>
-		<Key name="f3" action="file.view"/>
 		<Key name="f3" shift="1" action="file.internal_view"/>
 		<Key name="f3" alt="1" action="file.external_view"/>
-		<Key name="f4" action="file.edit"/>
 		<Key name="f4" shift="1" action="file.edit_new_doc"/>
-		<Key name="f5" action="file.copy"/>
 		<Key name="f5" shift="1" action="file.copy_as"/>
 		<Key name="f5" shift="1" control="1" action="file.create_symlink"/>
-		<Key name="f6" action="file.rename"/>
-		<Key name="f7" action="file.mkdir"/>
 		<Key name="f7" alt="1" action="edit.search"/>
-		<Key name="f8" action="edit.delete"/>
-		<Key name="f9" action="edit.search"/>
 		<Key name="f12" control="1" action="edit.filter"/>
 	</KeyBindings>
 </GnomeCommander>

@@ -116,4 +116,8 @@ case_sens=false
 last_mode=0
 
 [plugins]
-count=0
+count=1
+auto_load0=libfileroller.so
+
+[file-runner-plugin]
+default_type=.zip

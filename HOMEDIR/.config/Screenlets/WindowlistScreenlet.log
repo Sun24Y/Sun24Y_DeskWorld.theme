@@ -1,0 +1,12 @@
+CachingBackend: Lade Instanzen aus dem Cache
+CachingBackend: Lade <Windowlist1>
+Laufende Sitzung von Windowlist gefunden, füge neue Instanz durch den Dienst hinzu.
+Fehler in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Windowlist was not provided by any .service files
+Screenlet has already been added to /tmp/screenlets/screenlets.loop.running
+Lade Instanzen in: /home/loop/.config/Screenlets/Windowlist/default/
+Datei: Windowlist1.ini
+/home/loop/.config/Screenlets/Windowlist/default/Windowlist1
+Setze Optionen in WindowlistScreenlet
+Screenlet has been initialized.
+Instanzen wiederhergestellt aus der Sitzung: 'default' ...
+quiting

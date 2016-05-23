@@ -1,0 +1,646 @@
+CachingBackend: Lade Instanzen aus dem Cache
+Laufende Sitzung von Output gefunden, füge neue Instanz durch den Dienst hinzu.
+Fehler in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Output was not provided by any .service files
+Screenlet has already been added to /tmp/screenlets/screenlets.loop.running
+Lade Instanzen in: /home/loop/.config/Screenlets/Output/default/
+Keine Instanz(en) im Sitzungspfad gefunden, erstelle eine Neue.
+/home/loop/.config/Screenlets/Output/default/Output1
+LADE NEUES THEMA: default
+GEFUNDEN: /usr/share/screenlets/Output/themes/default
+theme.conf found! Loading option-overrides.
+theme.conf geladen: 
+Name: default
+Autor Helder Fraga aka Whise
+Version: 1.0
+Info: default theme
+Überschreibe: frame_color
+WARNUNG: Option 'frame_color' nicht gefunden oder geschützt.
+Überschreibe: shadow_color
+WARNUNG: Option 'shadow_color' nicht gefunden oder geschützt.
+Überschreibe: iner_frame_color
+WARNUNG: Option 'iner_frame_color' nicht gefunden oder geschützt.
+Überschreibe: text_color
+WARNUNG: Option 'text_color' nicht gefunden oder geschützt.
+(0, 0, 0, 0.7)
+0.7
+(0, 0, 0, 0.3)
+0.3
+(0, 0, 0, 0.5)
+0.5
+(1, 1, 1, 0.7)
+0.7
+/home/loop/.screenlets/Output/themes
+Pfad /home/loop/.screenlets/Output/themes nicht gefunden
+/usr/share/screenlets/Output/themes
+aktives Thema ist: default
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Geändert: scale
+Geändert: scale
+Geändert: y
+Geändert: y
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: y
+Geändert: y
+Geändert: y
+Geändert: y
+Geändert: y
+Geändert: update_interval
+Geändert: update_interval
+Geändert: update_interval
+Geändert: update_interval
+Geändert: update_interval
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: text_color
+Geändert: text_color
+Geändert: frame_color
+Geändert: frame_color
+Geändert: iner_frame_color
+Geändert: scale
+Geändert: scale
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: is_sticky
+Geändert: is_widget
+Geändert: lock_position
+Geändert: keep_above
+Geändert: keep_below
+Geändert: keep_below
+Geändert: keep_below
+Geändert: keep_below
+Geändert: draw_buttons
+Geändert: resize_on_scroll
+Geändert: allow_option_override
+Geändert: ask_on_option_override
+Geändert: shadow_color
+Geändert: shadow_color
+Geändert: shadow_color
+LADE NEUES THEMA: negative
+GEFUNDEN: /usr/share/screenlets/Output/themes/negative
+theme.conf found! Loading option-overrides.
+theme.conf geladen: 
+Name: negative
+Autor Helder Fraga aka Whise
+Version: 1.0
+Info: negative theme
+Button release
+Button release
+Button release
+(0.1995880064087892, 0.0, 0.19392690928511483, 0.7843137254901961)
+0.78431372549
+(0.2584725719081407, 0.0, 0.19385061417563135, 1.0)
+1.0
+(1.0, 0.0, 0.3036240177004654, 0.3764705882352941)
+0.376470588235
+(1.0, 0.8782635233081559, 0.0, 1.0)
+1.0
+/home/loop/.screenlets/Output/themes
+Pfad /home/loop/.screenlets/Output/themes nicht gefunden
+/usr/share/screenlets/Output/themes
+aktives Thema ist: negative
+Geändert: y
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: x
+Geändert: scale
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: opacity
+(0.1995880064087892, 0.0, 0.19392690928511483, 0.7843137254901961)
+0.78431372549
+(0.2584725719081407, 0.0, 0.19385061417563135, 1.0)
+1.0
+(1.0, 0.0, 0.3036240177004654, 0.3764705882352941)
+0.376470588235
+(1.0, 0.8782635233081559, 0.0, 1.0)
+1.0
+/home/loop/.screenlets/Output/themes
+Pfad /home/loop/.screenlets/Output/themes nicht gefunden
+/usr/share/screenlets/Output/themes
+aktives Thema ist: negative
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Button release
+Button release
+Button release
+(0.1995880064087892, 0.0, 0.19392690928511483, 0.7843137254901961)
+0.78431372549
+(0.2584725719081407, 0.0, 0.19385061417563135, 1.0)
+1.0
+(1.0, 0.0, 0.3036240177004654, 0.3764705882352941)
+0.376470588235
+(1.0, 0.8782635233081559, 0.0, 1.0)
+1.0
+/home/loop/.screenlets/Output/themes
+Pfad /home/loop/.screenlets/Output/themes nicht gefunden
+/usr/share/screenlets/Output/themes
+aktives Thema ist: negative
+Geändert: x
+Geändert: x
+Geändert: scale
+Geändert: scale
+Geändert: scale
+Geändert: scale
+Geändert: scale
+Geändert: scale
+Geändert: opacity
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: w
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Geändert: h
+Button release
+Button release
+Button release
+Button release
+(0.1995880064087892, 0.0, 0.19392690928511483, 0.7843137254901961)
+0.78431372549
+(0.2584725719081407, 0.0, 0.19385061417563135, 1.0)
+1.0
+(1.0, 0.0, 0.3036240177004654, 0.3764705882352941)
+0.376470588235
+(1.0, 0.8782635233081559, 0.0, 1.0)
+1.0
+/home/loop/.screenlets/Output/themes
+Pfad /home/loop/.screenlets/Output/themes nicht gefunden
+/usr/share/screenlets/Output/themes
+aktives Thema ist: negative
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Geändert: opacity
+Button release
