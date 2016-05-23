@@ -12,25 +12,25 @@
 	<History>
 		<Directories>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld"/>
-			<Directory path="/home/loop"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/Applications"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/preconf_Emerald"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/preconf_GTK"/>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.choosewm"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/kde4"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/kde4/services"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/apps"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.kde/share/config"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/Fonts"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.screenlets"/>
+			<Directory path="/home/loop"/>
+			<Directory path="/home/loop/.config"/>
+			<Directory path="/home/loop/.config/dconf"/>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/desktop"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/desktop/gnome"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/desktop/gnome/interface"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf/apps"/>
+			<Directory path="/bin"/>
+			<Directory path="/"/>
+			<Directory path="/home"/>
+			<Directory path="/home/loop/.mplayer"/>
+			<Directory path="/home/loop/Dokumente"/>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/qtcurve"/>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/xfce4"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/xfce4-session"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/blender"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/blender/2.77"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/blender/2.77/scripts"/>
 		</Directories>
 	</History>
 	<AdvancedRenameTool>

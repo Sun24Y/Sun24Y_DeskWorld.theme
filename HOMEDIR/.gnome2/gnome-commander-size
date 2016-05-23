@@ -1,7 +1,7 @@
 
 [main_win]
-width=600
-height=400
+width=1360
+height=738
 
 [column-widths]
 fs_col_width0=16
