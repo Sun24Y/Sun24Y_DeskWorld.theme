@@ -1,8 +1,6 @@
 # Desktop
 Linux Debian custom desktop environment  
   
-<img style="float: right;" src="https://drive.google.com/file/d/0B5YtQ2Ka-H8XRW5ZRWxEOWp5T1k/preview">
-  
 This GIT contains different configuration files for the desktop environment, using following applications for an enhanced UX (=user experience):
   
 + Compiz desktop-area management
