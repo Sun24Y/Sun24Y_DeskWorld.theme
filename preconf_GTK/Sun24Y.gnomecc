@@ -115,7 +115,7 @@ widget &quot;gtk-tooltip*&quot; style &quot;gnome-color-chooser-compact-tooltips
     <!-- Element: base[PRELIGHT] -->
   <element id ="11" value="#7C0012"/>
     <!-- Element: base[SELECTED] -->
-  <element id ="12" value="#545454"/>
+  <element id ="12" value="#008600"/>
     <!-- Element: base[ACTIVE] -->
   <element id ="13" value="#7C0011"/>
     <!-- Element: base[INSENSITIVE] -->
