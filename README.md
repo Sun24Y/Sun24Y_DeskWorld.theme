@@ -1,7 +1,7 @@
 # Desktop
 Linux Debian custom desktop environment  
   
-<iframe src="https://drive.google.com/file/d/0B5YtQ2Ka-H8XRW5ZRWxEOWp5T1k/preview" width="640" height="480"></iframe>
+![Sun24Y DeskWorld-Theme screenshot](//drive.google.com/file/d/0B5YtQ2Ka-H8XRW5ZRWxEOWp5T1k/preview)
   
 This GIT contains different configuration files for the desktop environment, using following applications for an enhanced UX (=user experience):
   
