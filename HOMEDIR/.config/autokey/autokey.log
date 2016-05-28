@@ -1,0 +1,17 @@
+2016-05-28 07:32:27,914 INFO - root - Initialising application
+2016-05-28 07:32:27,935 INFO - root - Initialise global hotkeys
+2016-05-28 07:32:27,936 INFO - config-manager - No configuration found - creating new one
+2016-05-28 07:32:27,952 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2016-05-28 07:32:27,953 INFO - config-manager - Persisting configuration
+2016-05-28 07:32:27,954 INFO - config-manager - Finished persisting configuration - no errors
+2016-05-28 07:32:27,956 INFO - service - Starting service
+2016-05-28 07:32:28,266 INFO - interface - XRecord interface thread starting
+2016-05-28 07:32:28,275 INFO - service - Service now marked as running
+2016-05-28 07:32:28,768 INFO - root - Displaying configuration window
+2016-05-28 07:32:30,852 INFO - root - Entering main()
+2016-05-28 07:32:51,185 INFO - root - Shutting down
+2016-05-28 07:32:51,187 INFO - service - Service shutting down
+2016-05-28 07:32:52,007 INFO - config-manager - Persisting configuration
+2016-05-28 07:32:52,007 INFO - config-manager - Backing up existing config file
+2016-05-28 07:32:52,009 INFO - config-manager - Finished persisting configuration - no errors
+2016-05-28 07:32:52,191 INFO - inotify - Shutting down file monitor

@@ -105,31 +105,33 @@
       <property name="names-visible" type="array">
         <value type="string" value="thunar"/>
         <value type="string" value="vlc"/>
+        <value type="string" value="autokey-gtk"/>
         <value type="string" value="gxine"/>
         <value type="string" value="pidgin"/>
+        <value type="string" value="chromium"/>
         <value type="string" value="notizen"/>
         <value type="string" value="smplayer"/>
         <value type="string" value="ausgangslautstärke"/>
-        <value type="string" value="chromium"/>
       </property>
       <property name="size-max" type="uint" value="28"/>
       <property name="names-hidden" type="array">
-        <value type="string" value="do"/>
-        <value type="string" value="wireless-monitor"/>
-        <value type="string" value="gpaste-applet"/>
-        <value type="string" value="fusion-icon"/>
-        <value type="string" value="wecker"/>
-        <value type="string" value="clipit"/>
-        <value type="string" value="screenlets-daemon.py"/>
-        <value type="string" value="mikrofonlautstärke"/>
-        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="taskmanager"/>
         <value type="string" value="alarm-clock-applet"/>
-        <value type="string" value="solaar"/>
-        <value type="string" value="mate-volume-control-applet"/>
-        <value type="string" value="netzwerk-manager-applet"/>
-        <value type="string" value="onboard"/>
+        <value type="string" value="gdesklets-daemon"/>
         <value type="string" value="zwischenablage"/>
+        <value type="string" value="onboard"/>
+        <value type="string" value="do"/>
+        <value type="string" value="clipit"/>
+        <value type="string" value="mikrofonlautstärke"/>
+        <value type="string" value="mate-volume-control-applet"/>
+        <value type="string" value="solaar"/>
+        <value type="string" value="gpaste-applet"/>
+        <value type="string" value="fusion-icon"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="wecker"/>
+        <value type="string" value="screenlets-daemon.py"/>
+        <value type="string" value="netzwerk-manager-applet"/>
+        <value type="string" value="wireless-monitor"/>
         <value type="string" value="e-mail-eingangsüberwachung"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>

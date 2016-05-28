@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Alarm Clock
+Name[de]=Wecker
+Comment=Wake up in the morning
+Comment[de]=Morgens aufwecken
+Icon=alarm-clock
+Exec=alarm-clock-applet --hidden
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+X-Ubuntu-Gettext-Domain=alarm-clock

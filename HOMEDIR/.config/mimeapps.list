@@ -24,6 +24,8 @@ application/zip=xarchiver.desktop;
 audio/mpeg=vlc.desktop;gxine.desktop;
 image/jpeg=shotwell-viewer.desktop;
 image/webp=userapp-gimp-2QN5HY.desktop;
+image/png=gthumb.desktop;gxine.desktop;
+text/markdown=userapp-gedit-SQ8DIY.desktop;
 
 [Default Applications]
 application/x-shellscript=userapp-byobu-JBO1HY.desktop
@@ -44,3 +46,4 @@ audio/x-scpls=vlc.desktop
 video/mp4=smplayer.desktop
 audio/mpeg=vlc.desktop
 image/webp=userapp-gimp-2QN5HY.desktop
+image/png=gthumb.desktop

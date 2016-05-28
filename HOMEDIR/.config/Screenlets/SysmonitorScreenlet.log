@@ -1,8 +1,8 @@
 CachingBackend: Lade Instanzen aus dem Cache
 CachingBackend: Lade <Sysmonitor1>
-Laufende Sitzung von Sysmonitor gefunden, füge neue Instanz durch den Dienst hinzu.
-Fehler in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Sysmonitor was not provided by any .service files
-Screenlet has already been added to /tmp/screenlets/screenlets.loop.running
+No global tempdir found, creating new one.
+Temp directory /tmp/screenlets created.
+Erstelle neuen Eintrag für SysmonitorScreenlet in /tmp/screenlets/screenlets.loop.running
 Lade Instanzen in: /home/loop/.config/Screenlets/Sysmonitor/default/
 Datei: Sysmonitor1.ini
 /home/loop/.config/Screenlets/Sysmonitor/default/Sysmonitor1
@@ -102,3 +102,5 @@ WARNUNG: Option 'fontsize' nicht gefunden oder geschützt.
 i just got started
 
 Instanzen wiederhergestellt aus der Sitzung: 'default' ...
+Keine Screenlets laufen mehr.
+Lösche globale temporäre Datei /tmp/screenlets/screenlets.loop.running

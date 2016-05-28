@@ -1,0 +1,212 @@
+Log messages of /home/loop/.gdesklets/logs/gdesklets%3A2.0.log
+
+==========================================================[05/28/16-09:07:37]===
+Adding "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id14644192569823343" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:07:37]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/28/16-09:07:37]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/28/16-09:07:38]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/28/16-09:07:38]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/28/16-09:07:58]===
+Adding "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id14644192778820433" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:08:08]===
+Adding "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14644192885160475" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:08:08]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Quote-of-the-Day/".
+
+
+
+==========================================================[05/28/16-09:08:08]===
+Couldn't read file /usr/lib/gdesklets/Displays/Quote-of-the-Day/.
+
+
+
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+
+==========================================================[05/28/16-09:16:03]===
+Removing "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id14644192569823343" from the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:03]===
+Removing "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id14644192778820433" from the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:04]===
+Removing "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14644192885160475" from the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:04]===
+Adding "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id1463825778941430" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:04]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/28/16-09:16:04]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/28/16-09:16:05]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/28/16-09:16:05]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/28/16-09:16:14]===
+Adding "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14638261527258434" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:14]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Quote-of-the-Day/".
+
+
+
+==========================================================[05/28/16-09:16:14]===
+Couldn't read file /usr/lib/gdesklets/Displays/Quote-of-the-Day/.
+
+
+
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+
+==========================================================[05/28/16-09:16:15]===
+Adding "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id14638262859462105" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:20]===
+Removing "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id1463825778941430" from the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:21]===
+Removing "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14638261527258434" from the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:21]===
+Removing "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id14638262859462105" from the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:21]===
+Adding "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id14644192569823343" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:21]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/28/16-09:16:21]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/28/16-09:16:22]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
+
+
+
+==========================================================[05/28/16-09:16:22]===
+Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
+
+
+
+
+==========================================================[05/28/16-09:16:30]===
+Adding "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id14644192778820433" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:31]===
+Adding "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14644192885160475" to the desklet list.
+
+
+
+==========================================================[05/28/16-09:16:31]===
+Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Quote-of-the-Day/".
+
+
+
+==========================================================[05/28/16-09:16:31]===
+Couldn't read file /usr/lib/gdesklets/Displays/Quote-of-the-Day/.
+
+
+
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+Traceback (most recent call last):
+  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
+    _("The <tt>relative-to</tt> property "
+UserError
+The following error occurred while binding a key: XGrabKey()/XUngrabKey() failed!

@@ -1,76 +1,54 @@
 Log messages of /home/loop/.gdesklets/logs/gdesklets%3A0.0.log
 
-==========================================================[05/28/16-07:37:34]===
+==========================================================[05/28/16-08:22:55]===
 Adding "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id14644138539963248" to the desklet list.
 
 
 
-==========================================================[05/28/16-07:37:34]===
+==========================================================[05/28/16-08:22:55]===
+Your window manager doesn't support _NET_SUPPORTING_WM_CHECK! Switch to a compliant WM!The following error occurred:
+'NoneType' object has no attribute '__getitem__'
+
+
+
+==========================================================[05/28/16-08:22:56]===
 Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
 
 
 
-==========================================================[05/28/16-07:37:34]===
+==========================================================[05/28/16-08:22:56]===
 Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
 
 
 
 
-==========================================================[05/28/16-07:37:35]===
+==========================================================[05/28/16-08:22:58]===
 Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Calendar/".
 
 
 
-==========================================================[05/28/16-07:37:35]===
+==========================================================[05/28/16-08:22:58]===
 Couldn't read file /usr/lib/gdesklets/Displays/Calendar/.
 
 
 
 
-==========================================================[05/28/16-07:37:56]===
+==========================================================[05/28/16-08:23:19]===
 Adding "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id14644138761653085" to the desklet list.
 
 
 
-==========================================================[05/28/16-07:38:49]===
-Adding "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14644139292813075" to the desklet list.
-
-
-
-==========================================================[05/28/16-07:38:49]===
-Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Quote-of-the-Day/".
-
-
-
-==========================================================[05/28/16-07:38:49]===
-Couldn't read file /usr/lib/gdesklets/Displays/Quote-of-the-Day/.
-
-
-
-Traceback (most recent call last):
-  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
-    _("The <tt>relative-to</tt> property "
-UserError
-Traceback (most recent call last):
-  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
-    _("The <tt>relative-to</tt> property "
-UserError
-Traceback (most recent call last):
-  File "/usr/lib/gdesklets/display/DisplayTarget.py", line 418, in f
-    _("The <tt>relative-to</tt> property "
-UserError
-
-==========================================================[05/28/16-07:38:53]===
+==========================================================[05/28/16-08:23:22]===
 Adding "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14644139334118299" to the desklet list.
 
 
 
-==========================================================[05/28/16-07:38:53]===
+==========================================================[05/28/16-08:23:22]===
 Warning: Couldn't read file "/usr/lib/gdesklets/Displays/Quote-of-the-Day/".
 
 
 
-==========================================================[05/28/16-07:38:53]===
+==========================================================[05/28/16-08:23:22]===
 Couldn't read file /usr/lib/gdesklets/Displays/Quote-of-the-Day/.
 
 
@@ -88,18 +66,17 @@ Traceback (most recent call last):
     _("The <tt>relative-to</tt> property "
 UserError
 
-==========================================================[05/28/16-07:40:08]===
-Removing "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14644139292813075" from the desklet list.
+==========================================================[05/28/16-08:24:07]===
+Removing "/usr/lib/gdesklets/Displays/Clock/clock.display" with ID "id14644138761653085" from the desklet list.
 
 
 
-==========================================================[05/28/16-07:40:25]===
-RuntimeError('Unrecognized image file format',)
+==========================================================[05/28/16-08:24:11]===
+Removing "/usr/lib/gdesklets/Displays/Calendar/Calendar.display" with ID "id14644138539963248" from the desklet list.
 
 
-/usr/lib/gdesklets/display/TargetImage.py:108: GtkWarning: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
-  self.__original_size = self.__widget.get_size()
-/usr/lib/gdesklets/display/TargetImage.py:108: GtkWarning: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
-  self.__original_size = self.__widget.get_size()
-/usr/lib/gdesklets/display/TargetImage.py:104: Warning: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-  self.__widget.set_from_data(data)
+
+==========================================================[05/28/16-08:24:33]===
+Removing "/usr/lib/gdesklets/Displays/Quote-of-the-Day/quote.display" with ID "id14644139334118299" from the desklet list.
+
+
