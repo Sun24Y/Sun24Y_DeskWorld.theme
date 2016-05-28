@@ -4,6 +4,9 @@
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XN0lSMFptYkdsZXc)  
   
 This GIT contains different configuration files for the desktop environment, using following applications for an enhanced UX (=user experience):  
+  
++ "Vertex-Dark" GTK theme for a solid basement for all visual elements, which will be rewritten in color, size and opacity  
+https://github.com/horst3180/vertex-theme  
    
 + Compiz desktop-area management and the Emerald window-manager for decorations and color gradients  
 http://compiz-debian.tuxfamily.org/
