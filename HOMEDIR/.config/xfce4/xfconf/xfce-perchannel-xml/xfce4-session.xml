@@ -6,18 +6,19 @@
     <property name="engines" type="empty">
       <property name="simple" type="empty">
         <property name="Font" type="empty"/>
-        <property name="BgColor" type="empty"/>
+        <property name="BgColor" type="string" value="#770011"/>
         <property name="FgColor" type="string" value="#ffc000"/>
-        <property name="Image" type="string" value="/usr/share/images/desktop-base/desktop-background"/>
+        <property name="Image" type="string" value="/home/loop/Bilder/universe_bckgrnd.jpg"/>
       </property>
     </property>
   </property>
   <property name="general" type="empty">
     <property name="FailsafeSessionName" type="empty"/>
     <property name="SessionName" type="string" value="Default"/>
-    <property name="SaveOnExit" type="bool" value="true"/>
-    <property name="AutoSave" type="bool" value="true"/>
+    <property name="SaveOnExit" type="bool" value="false"/>
+    <property name="AutoSave" type="bool" value="false"/>
     <property name="StartAssistiveTechnologies" type="bool" value="true"/>
+    <property name="PromptOnLogout" type="bool" value="false"/>
   </property>
   <property name="sessions" type="empty">
     <property name="Failsafe" type="empty">
@@ -44,5 +45,8 @@
   </property>
   <property name="shutdown" type="empty">
     <property name="LockScreen" type="bool" value="true"/>
+  </property>
+  <property name="chooser" type="empty">
+    <property name="AlwaysDisplay" type="bool" value="false"/>
   </property>
 </channel>

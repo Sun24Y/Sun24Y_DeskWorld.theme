@@ -20,227 +20,347 @@ p9
 (S'Berlin'
 g3
 tp10
-sS'id14638262859462105CONFIG Dsp.tz.font'
-p11
-(S'Sans Bold 9'
-g3
-tp12
-sS'id1463825778941430CONFIG lang'
-p13
-(S'de'
-g3
-tp14
-sS'id14638262859462105CONFIG Dsp.tz.color'
-p15
-(S'#FF9600FF'
-g3
-tp16
-sS'id14638261527258434CONFIG quote_font_color'
-p17
-(S'#FFFFFFFF'
-g3
-tp18
-sS'id1463825778941430CONFIG my_sep'
-p19
-(V / 
-g3
-tp20
-sS'id1463825778941430CONFIG month_font_colour'
-p21
-(S'#FFC000FF'
-g3
-tp22
-sS'id14638262859462105CONFIG clockface'
-p23
-(Vtux.png
-g3
-tp24
-sS'id1463825778941430CONFIG dow_font_colour'
-p25
-(S'#DC0073FF'
-g3
-tp26
-sS'id1463825778941430CONFIG date_font_colour'
-p27
-(S'#CBFEFFFF'
-g3
-tp28
-sS'id14638262859462105CONFIG hand_hour_style'
-p29
-(VRound
-g3
-tp30
-sS'id1463825778941430CONFIG bg_colour'
-p31
-(S'#003A52FF'
-g3
-tp32
-sS'id1463825778941430CONFIG frame_colour'
-p33
-(S'#002332FF'
-g3
-tp34
-sS'id14638261527258434CONFIG interval'
-p35
-(Vhourly
-g3
-tp36
-sS'id14638262859462105CONFIG tz_continent'
-p37
-(VEurope
-g3
-tp38
-sS'__default__ authorized_commands'
-p39
-(dp40
-sS'id14638261527258434CONFIG size'
-p41
-(S'220.0'
-S'float'
-p42
-tp43
-sS'id1463825778941430CONFIG EventsSet'
-p44
-(S'ge'
-g3
-tp45
-sS'id14638262859462105CONFIG hand_color_sec'
-p46
-(S'#006ACCFF'
-g3
-tp47
-sS'id1463825778941430CONFIG event_col'
-p48
-(S'#00AF48FF'
-g3
-tp49
-sS'id1463825778941430CONFIG evs'
-p50
-(I01
-S'bool'
-p51
-tp52
-sS'id1463825778941430CONFIG event_text_colour'
-p53
-(S'#C1FFB2FF'
-g3
-tp54
-sS'id14638262859462105CONFIG hand_color'
-p55
-(S'#3E47A6FF'
-g3
-tp56
-sS'id14638261527258434CONFIG background_image_visible'
-p57
-(I00
-g51
-tp58
-sS'id14638262859462105CONFIG Dsp.date.visible'
-p59
-(I01
-g51
-tp60
-sS'id14638261527258434CONFIG qauthor_font'
-p61
-(S'Sans Bold 7'
-g3
-tp62
-sS'id14638262859462105CONFIG Dsp.date.font'
-p63
-(S'Sans Bold 10'
-g3
-tp64
-sS'id14638261527258434CONFIG quote_font'
-p65
-(S'Serif Bold Italic 9'
-g3
-tp66
-sS'id1463825778941430CONFIG background_image_visible'
-p67
-(I00
-g51
-tp68
-sS'id14638262859462105CONFIG Dsp.tz.visible'
-p69
-(I01
-g51
-tp70
-sS'id14638261527258434CONFIG database'
-p71
-(V1
-g3
-tp72
-sS'id1463825778941430CONFIG month_image_visible'
-p73
-(I00
-g51
-tp74
-sS'id1463825778941430CONFIG month_font'
-p75
-(S'Sans Bold 12'
-g3
-tp76
 sS'id14638261527258434CONFIG qauthor_font_color'
-p77
+p11
 (S'#CECECEFF'
 g3
-tp78
+tp12
+sS'id14644138539963248CONFIG my_sep'
+p13
+(V / 
+p14
+S'string'
+p15
+tp16
+sS'id1463825778941430CONFIG frame_colour'
+p17
+(S'#002332FF'
+g3
+tp18
+sS'id14644138539963248CONFIG rand_image'
+p19
+(I00
+S'bool'
+p20
+tp21
+sS'id14644138539963248CONFIG event_col'
+p22
+(S'#BB0000FF'
+p23
+g15
+tp24
+sS'id14638262859462105CONFIG Dsp.tz.color'
+p25
+(S'#FF9600FF'
+g3
+tp26
+sS'id14638261527258434CONFIG quote_font_color'
+p27
+(S'#FFFFFFFF'
+g3
+tp28
+sS'id1463825778941430CONFIG my_sep'
+p29
+(V / 
+g3
+tp30
+sS'id14644138539963248CONFIG date_font_colour'
+p31
+(S'#48AA38A3'
+p32
+g15
+tp33
+sS'id14644138539963248CONFIG month_font_colour'
+p34
+(S'#FFCC00C4'
+p35
+g15
+tp36
+sS'id14644138539963248CONFIG lang'
+p37
+(S'de'
+p38
+g15
+tp39
+sS'id1463825778941430CONFIG month_font_colour'
+p40
+(S'#FFC000FF'
+g3
+tp41
+sS'id14644138539963248CONFIG monthframe_visible'
+p42
+(I01
+g20
+tp43
+sS'id14638262859462105CONFIG clockface'
+p44
+(Vtux.png
+g3
+tp45
+sS'id1463825778941430CONFIG dow_font_colour'
+p46
+(S'#DC0073FF'
+g3
+tp47
+sS'id1463825778941430CONFIG date_font_colour'
+p48
+(S'#CBFEFFFF'
+g3
+tp49
+sS'id14638262859462105CONFIG hand_hour_style'
+p50
+(VRound
+g3
+tp51
+sS'id1463825778941430CONFIG bg_colour'
+p52
+(S'#003A52FF'
+g3
+tp53
+sS'id14644138539963248CONFIG dow_chars'
+p54
+(S'2'
+S'integer'
+p55
+tp56
+sS'id14638261527258434CONFIG interval'
+p57
+(Vhourly
+g3
+tp58
+sS'id14638262859462105CONFIG tz_continent'
+p59
+(VEurope
+g3
+tp60
 sS'id1463825778941430CONFIG today_col'
-p79
+p61
 (S'#FFE500FF'
 g3
+tp62
+sS'__default__ authorized_commands'
+p63
+(dp64
+sS'id14638261527258434CONFIG size'
+p65
+(S'220.0'
+S'float'
+p66
+tp67
+sS'id1463825778941430CONFIG EventsSet'
+p68
+(S'ge'
+g3
+tp69
+sS'id14638262859462105CONFIG hand_color_sec'
+p70
+(S'#006ACCFF'
+g3
+tp71
+sS'id1463825778941430CONFIG event_col'
+p72
+(S'#00AF48FF'
+g3
+tp73
+sS'id1463825778941430CONFIG lang'
+p74
+(S'de'
+g3
+tp75
+sS'id1463825778941430CONFIG event_text_colour'
+p76
+(S'#C1FFB2FF'
+g3
+tp77
+sS'id14644138539963248CONFIG EventsSet'
+p78
+(S'ge'
+p79
+g15
 tp80
-sS'id14638262859462105CONFIG size'
+sS'id14638262859462105CONFIG hand_color'
 p81
-(S'2.25'
-g42
+(S'#3E47A6FF'
+g3
 tp82
-sS'__default__ positions'
+sS'id14644138539963248CONFIG dow_font_colour'
 p83
-(dp84
+(S'#B4930094'
+p84
+g15
+tp85
+sS'id14638262859462105CONFIG Dsp.date.visible'
+p86
+(I01
+S'bool'
+p87
+tp88
+sS'id14638261527258434CONFIG qauthor_font'
+p89
+(S'Sans Bold 7'
+g3
+tp90
+sS'id14638262859462105CONFIG Dsp.date.font'
+p91
+(S'Sans Bold 10'
+g3
+tp92
+sS'id14644138539963248CONFIG frame_colour'
+p93
+(S'#1C0009A3'
+p94
+g15
+tp95
+sS'id14638261527258434CONFIG quote_font'
+p96
+(S'Serif Bold Italic 9'
+g3
+tp97
+sS'id1463825778941430CONFIG background_image_visible'
+p98
+(I00
+g87
+tp99
+sS'id14638262859462105CONFIG Dsp.tz.visible'
+p100
+(I01
+g87
+tp101
+sS'id14644138539963248CONFIG month_font'
+p102
+(S'Sans Bold 12'
+p103
+g15
+tp104
+sS'id14644138539963248CONFIG bg_colour'
+p105
+(S'#4F001960'
+p106
+g15
+tp107
+sS'id14638261527258434CONFIG database'
+p108
+(V1
+g3
+tp109
+sS'id1463825778941430CONFIG month_image_visible'
+p110
+(I00
+g87
+tp111
+sS'id14644138539963248CONFIG today_col'
+p112
+(S'#FFCC00FF'
+p113
+g15
+tp114
+sS'id1463825778941430CONFIG month_font'
+p115
+(S'Sans Bold 12'
+g3
+tp116
+sS'id1463825778941430CONFIG evs'
+p117
+(I01
+g87
+tp118
+sS'id14638262859462105CONFIG Dsp.tz.font'
+p119
+(S'Sans Bold 9'
+g3
+tp120
+sS'id14644138539963248CONFIG image_of_month'
+p121
+(I00
+g20
+tp122
+sS'id14638262859462105CONFIG size'
+p123
+(S'2.25'
+g66
+tp124
+sS'id1463825778941430CONFIG monthframe_visible'
+p125
+(I01
+g87
+tp126
+sS'id1463825778941430CONFIG image_of_month'
+p127
+(I01
+g87
+tp128
+sS'id14644138539963248CONFIG month_image_visible'
+p129
+(I00
+g20
+tp130
+sS'id14638261527258434CONFIG background_image_visible'
+p131
+(I00
+g87
+tp132
+sS'id14644138539963248CONFIG dow_font'
+p133
+(S'Sans Bold 8'
+p134
+g15
+tp135
+sS'__default__ positions'
+p136
+(dp137
 S'id14638261527258434'
-p85
+p138
 (I393
 I457
-tp86
+tp139
 sS'id1463825778941430'
-p87
+p140
 (I446
 I138
-tp88
+tp141
+sS'id14644139334118299'
+p142
+(I284
+I645
+tp143
 sS'id1463826137812426'
-p89
+p144
 (I427
 I394
-tp90
+tp145
 sS'id14638262859462105'
-p91
+p146
 (I783
 I138
-tp92
+tp147
+sS'id14644138761653085'
+p148
+(I765
+I113
+tp149
+sS'id14644138539963248'
+p150
+(I1058
+I58
+tp151
 sS'id1463830330294935'
-p93
+p152
 (I485
 I284
-tp94
+tp153
 sS'id1463830307325900'
-p95
+p154
 (I676
 I505
-tp96
+tp155
 sS'id14638303112042023'
-p97
+p156
 (I479
 I199
-tp98
-ssS'id1463825778941430CONFIG image_of_month'
-p99
-(I01
-g51
-tp100
-sS'id1463825778941430CONFIG monthframe_visible'
-p101
-(I01
-g51
-tp102
-s.
+tp157
+sS'id14644139292813075'
+p158
+(I311
+I196
+tp159
+ss.

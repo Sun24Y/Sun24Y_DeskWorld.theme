@@ -2,7 +2,7 @@
 InfoOutput=4
 
 [kbuildsycoca4]
-InfoOutput=2
+InfoOutput=4
 
 [kdecore (services)]
 InfoOutput=2

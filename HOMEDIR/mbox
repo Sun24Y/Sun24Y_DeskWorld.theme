@@ -1,0 +1,64 @@
+From root@megaterios.localdomain Tue May 17 13:40:06 2016
+Return-path: <root@megaterios.localdomain>
+Envelope-to: root@megaterios.localdomain
+Delivery-date: Tue, 17 May 2016 13:40:06 +0200
+Received: from root by Megaterios.localdomain with local (Exim 4.84_2)
+	(envelope-from <root@megaterios.localdomain>)
+	id 1b2dM6-0000US-2J
+	for root@megaterios.localdomain; Tue, 17 May 2016 13:40:06 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Auto-Submitted: auto-generated
+Subject: =?utf-8?q?apt-listchanges=3A_Neuigkeiten_f=C3=BCr_Megaterios?=
+To: root@megaterios.localdomain
+Message-Id: <E1b2dM6-0000US-2J@Megaterios.localdomain>
+From: root <root@megaterios.localdomain>
+Date: Tue, 17 May 2016 13:40:06 +0200
+Status: RO
+
+openssh (1:7.2p1-1) unstable; urgency=medium
+
+  OpenSSH 7.2 disables a number of legacy cryptographic algorithms by
+  default in ssh:
+
+   * Several ciphers blowfish-cbc, cast128-cbc, all arcfour variants and the
+     rijndael-cbc aliases for AES.
+   * MD5-based and truncated HMAC algorithms.
+
+  These algorithms are already disabled by default in sshd.
+
+ -- Colin Watson <cjwatson@debian.org>  Tue, 08 Mar 2016 11:47:20 +0000
+
+openssh (1:7.1p1-2) unstable; urgency=medium
+
+  OpenSSH 7.0 disables several pieces of weak, legacy, and/or unsafe
+  cryptography.
+
+   * Support for the legacy SSH version 1 protocol is disabled by default at
+     compile time.  Note that this also means that the Cipher keyword in
+     ssh_config(5) is effectively no longer usable; use Ciphers instead for
+     protocol 2.  The openssh-client-ssh1 package includes "ssh1", "scp1",
+     and "ssh-keygen1" binaries which you can use if you have no alternative
+     way to connect to an outdated SSH1-only server; please contact the
+     server administrator or system vendor in such cases and ask them to
+     upgrade.
+   * Support for the 1024-bit diffie-hellman-group1-sha1 key exchange is
+     disabled by default at run-time.  It may be re-enabled using the
+     instructions at http://www.openssh.com/legacy.html
+   * Support for ssh-dss, ssh-dss-cert-* host and user keys is disabled by
+     default at run-time.  These may be re-enabled using the instructions at
+     http://www.openssh.com/legacy.html
+   * Support for the legacy v00 cert format has been removed.
+
+  Future releases will retire more legacy cryptography, including:
+
+   * Refusing all RSA keys smaller than 1024 bits (the current minimum is
+     768 bits).
+   * Several ciphers will be disabled by default: blowfish-cbc, cast128-cbc,
+     all arcfour variants, and the rijndael-cbc aliases for AES.
+   * MD5-based HMAC algorithms will be disabled by default.
+
+ -- Colin Watson <cjwatson@debian.org>  Tue, 08 Dec 2015 15:33:08 +0000
+
+

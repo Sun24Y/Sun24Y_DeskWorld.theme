@@ -4,8 +4,6 @@
   <property name="Default" type="empty">
     <property name="VGA-0" type="string" value="Bildschirm">
       <property name="Active" type="bool" value="true"/>
-      <property name="Resolution" type="string" value="1360x768"/>
-      <property name="RefreshRate" type="double" value="59.798991"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>
@@ -13,7 +11,9 @@
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
+      <property name="Resolution" type="string" value="1024x768"/>
+      <property name="RefreshRate" type="double" value="60.003840"/>
     </property>
   </property>
-  <property name="Notify" type="bool" value="true"/>
+  <property name="Notify" type="bool" value="false"/>
 </channel>

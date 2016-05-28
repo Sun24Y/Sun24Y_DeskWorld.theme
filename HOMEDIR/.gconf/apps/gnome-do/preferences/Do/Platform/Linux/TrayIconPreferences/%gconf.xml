@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="StatusIconVisible" mtime="1463847728" type="bool" value="true"/>
+	<entry name="StatusIconVisible" mtime="1464285026" type="bool" value="false"/>
 </gconf>

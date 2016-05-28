@@ -1,35 +1,7 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/loop/Schreibtisch/.zshrc]
-row=0
-col=1
-
-[/home/loop/Schreibtisch/mediapad.connectbot.pub]
-row=3
-col=0
-
-[/home/loop/Schreibtisch/megaterios.ssh.key.pub]
-row=5
-col=0
-
-[/home/loop/Schreibtisch/mediapad.ssh.pub]
-row=4
-col=0
-
-[/home/loop/Schreibtisch/FileZilla.xml]
-row=2
-col=0
-
-[Diskette-Datenträger]
-row=1
-col=0
-
-[/home/loop]
-row=0
-col=0
-
 [/]
-row=1
-col=1
+row=0
+col=0
 

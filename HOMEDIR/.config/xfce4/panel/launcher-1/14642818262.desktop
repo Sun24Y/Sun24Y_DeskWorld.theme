@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=CompizConfig Settings Manager
+Name[de]=CompizConfig Einstellungs-Manager
+Comment=Configure Compiz with CompizConfig
+Comment[de]=Konfiguration von Compiz mit CompizConfig
+Icon=ccsm
+Exec=ccsm
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;
+StartupNotify=true
+X-XFCE-Source=file:///usr/share/applications/ccsm.desktop

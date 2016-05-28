@@ -1,5 +1,5 @@
-WebBrowser=firefox
+WebBrowser=debian-sensible-browser
 MailReader=evolution
-TerminalEmulator=xfce4-terminal
+TerminalEmulator=debian-x-terminal-emulator
 FileManager=Thunar
 

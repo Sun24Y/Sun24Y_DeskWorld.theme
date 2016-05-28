@@ -1,0 +1,12 @@
+# You can add your own K-3D-specific GTK styles here.
+
+# Un-comment this to modify icon sizes.
+# gtk-icon-sizes = "mini-commander-icon=24,24:print-manager=64,64:panel-button=32,32:gtk-dnd=48,48:gtk-menu=32,32:panel-menu=48,48:gtk-large-toolbar=48,48:gtk-small-toolbar=32,32:gtk-button=32,32:gtk-dialog=64,64"
+
+# Add styles that will apply to all K-3D widgets here.
+style "k3d-style"
+{
+
+}
+
+class "*" style "k3d-style"

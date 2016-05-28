@@ -1,9 +1,9 @@
 
 [options]
 size_disp_mode=3
-perm_disp_mode=1
+perm_disp_mode=0
 layout=2
-list_row_height=12
+list_row_height=16
 date_disp_mode=%x %R
 show_unknown=false
 show_regular=false
@@ -15,12 +15,12 @@ show_block_device=false
 show_symbolic_link=false
 hidden_filter=false
 backup_filter=false
-list_font=Sans Bold 8
+list_font=-misc-fixed-medium-r-normal-*-10-*-*-*-c-*-iso8859-1
 ext_disp_mode=2
 left_mouse_button_mode=0
 left_mouse_button_unselects=true
 middle_mouse_button_mode=0
-right_mouse_button_mode=0
+right_mouse_button_mode=1
 icon_size=16
 dev_icon_size=16
 icon_scale_quality=3
@@ -47,7 +47,7 @@ main_win_state=4
 delete=true
 delete_default=1
 copy_overwrite=1
-move_overwrite=1
+move_overwrite=2
 confirm_mouse_dnd=true
 
 [sort]
@@ -55,16 +55,16 @@ select_dirs=true
 case_sensitive=true
 
 [colors]
-mode=7
-norm_fg=65535 49344 0
-norm_bg=0 13107 455
+mode=6
+norm_fg=65535 65535 65535
+norm_bg=0 0 17476
 alt_fg=65535 65535 65535
-alt_bg=17476 0 5437
-sel_fg=0 21212 46231
+alt_bg=0 0 17476
+sel_fg=65535 0 0
 sel_bg=0 0 17476
-curs_fg=0 52859 7047
-curs_bg=14922 0 18672
-use_ls_colors=true
+curs_fg=0 0 0
+curs_bg=43690 43690 43690
+use_ls_colors=false
 ls_colors_black_fg=0 0 0
 ls_colors_black_bg=0 0 0
 ls_colors_red_fg=65535 0 0
@@ -73,8 +73,8 @@ ls_colors_green_fg=0 65535 0
 ls_colors_green_bg=0 65535 0
 ls_colors_yellow_fg=65535 65535 0
 ls_colors_yellow_bg=65535 65535 0
-ls_colors_blue_fg=30583 30583 64250
-ls_colors_blue_bg=30583 30583 64250
+ls_colors_blue_fg=0 0 65535
+ls_colors_blue_bg=0 0 65535
 ls_colors_magenta_fg=65535 0 65535
 ls_colors_magenta_bg=65535 0 65535
 ls_colors_cyan_fg=0 65535 65535
@@ -89,7 +89,7 @@ use_internal_viewer=true
 alt_quick_search=false
 quick_search_exact_match_begin=true
 quick_search_exact_match_end=false
-skip_mounting=false
+skip_mounting=true
 toolbar_visibility=true
 buttonbar_visibility=true
 viewer=gedit %s
@@ -100,7 +100,7 @@ terminal_exec=xterm -hold -e %s
 use_gcmd_block=false
 
 [devices]
-only_icon=false
+only_icon=true
 
 [quick-connect]
 uri=ftp://anonymous@ftp.gnome.org/pub/GNOME/
@@ -116,8 +116,8 @@ case_sens=false
 last_mode=0
 
 [plugins]
-count=1
+count=0
 auto_load0=libfileroller.so
 
-[file-runner-plugin]
-default_type=.zip
+[cmdline-history]
+line0=pwd

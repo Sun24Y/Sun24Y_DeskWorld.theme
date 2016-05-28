@@ -3,34 +3,34 @@
 <GnomeCommander version="1.4.7">
 	<Layout>
 		<Panel name="left">
-			<Tab path="/home/loop" sort="1" asc="0" lock="0"/>
+			<Tab path="/home/loop/.config" sort="1" asc="0" lock="0"/>
 		</Panel>
 		<Panel name="right">
-			<Tab path="/home/loop/Dokumente/Sun24Y_DeskWorld" sort="1" asc="0" lock="0"/>
+			<Tab path="/home/loop/Dokumente/Sun24Y_DeskWorld/preconf_GTK" sort="1" asc="0" lock="0"/>
 		</Panel>
 	</Layout>
 	<History>
 		<Directories>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld"/>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/preconf_GTK"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/preconf_OpenBox"/>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.screenlets"/>
-			<Directory path="/home/loop"/>
-			<Directory path="/home/loop/.config"/>
-			<Directory path="/home/loop/.config/dconf"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.gconf"/>
-			<Directory path="/bin"/>
-			<Directory path="/"/>
-			<Directory path="/home"/>
-			<Directory path="/home/loop/.mplayer"/>
-			<Directory path="/home/loop/Dokumente"/>
 			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/qtcurve"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/xfce4"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/xfce4-session"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/blender"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/blender/2.77"/>
-			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/blender/2.77/scripts"/>
+			<Directory path="/home/loop/.config"/>
+			<Directory path="/home/loop/.config/cairo-dock"/>
+			<Directory path="/home/loop/.config/autostart"/>
+			<Directory path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR/.config/compiz"/>
+			<Directory path="/home/mega"/>
+			<Directory path="/home/loop"/>
+			<Directory path="/home/loop/Dokumente"/>
+			<Directory path="/home"/>
+			<Directory path="/home/loop/.bogofilter"/>
+			<Directory path="/"/>
+			<Directory path="/media"/>
+			<Directory path="/media/loop"/>
+			<Directory path="/media/loop/Transcend"/>
+			<Directory path="/work/Videos"/>
+			<Directory path="/media/loop/Transcend/Neuer Ordner"/>
 		</Directories>
 	</History>
 	<AdvancedRenameTool>
@@ -67,22 +67,26 @@
 	<SearchTool>
 		<WindowSize width="640" height="400"/>
 		<Profile name="Default">
-			<Pattern syntax="regex" match-case="0"></Pattern>
+			<Pattern syntax="shell" match-case="0"></Pattern>
 			<Subdirectories max-depth="-1"/>
 			<Text content-search="0" match-case="0"></Text>
 		</Profile>
-		<History/>
+		<History>
+			<Pattern>.*</Pattern>
+		</History>
 	</SearchTool>
 	<BookmarksTool>
-		<WindowSize width="400" height="250"/>
+		<WindowSize width="538" height="332"/>
 	</BookmarksTool>
 	<Connections>
 		<Connection name="GNOME Commander" uri="ftp://anonymous@ftp.gnome.org/pub/GNOME/sources/gnome-commander/" auth="3"/>
 	</Connections>
 	<Bookmarks>
 		<Group name="Home">
+			<Bookmark name="root" path="/root"/>
+			<Bookmark name="mega" path="/home/mega"/>
 			<Bookmark name="loop" path="/home/loop"/>
-			<Bookmark name="Sun24Y_DeskWorld" path="/home/loop/Dokumente/Sun24Y_DeskWorld"/>
+			<Bookmark name="HOMEDIR" path="/home/loop/Dokumente/Sun24Y_DeskWorld/HOMEDIR"/>
 		</Group>
 	</Bookmarks>
 	<Selections/>

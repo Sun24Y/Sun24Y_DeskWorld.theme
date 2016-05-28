@@ -1,15 +1,15 @@
 
 [main_win]
-width=1360
+width=1024
 height=738
 
 [column-widths]
 fs_col_width0=16
-fs_col_width1=185
-fs_col_width2=37
+fs_col_width1=293
+fs_col_width2=54
 fs_col_width3=240
-fs_col_width4=90
-fs_col_width5=128
-fs_col_width6=36
-fs_col_width7=38
-fs_col_width8=61
+fs_col_width4=70
+fs_col_width5=150
+fs_col_width6=70
+fs_col_width7=50
+fs_col_width8=50

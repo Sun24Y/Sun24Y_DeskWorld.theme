@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="display-no-pass-info" mtime="1463916534" type="bool" value="false"/>
-	<entry name="save-keyring" mtime="1463937540" type="string">
+	<entry name="display-no-pass-info" mtime="1464289489" type="bool" value="false"/>
+	<entry name="save-keyring" mtime="1464282731" type="string">
 		<stringvalue>default</stringvalue>
 	</entry>
-	<entry name="save-to-keyring" mtime="1463937540" type="bool" value="true"/>
+	<entry name="save-to-keyring" mtime="1464282731" type="bool" value="true"/>
 </gconf>
