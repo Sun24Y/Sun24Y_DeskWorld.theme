@@ -17,6 +17,9 @@ http://glx-dock.org/
 + Screenlets for advanced information panels within the screen  
 https://launchpad.net/~screenlets  
   
++ For the pointer visuals, the "Crystalcursors" have been chosen  
+https://launchpad.net/ubuntu/+source/crystalcursors  
+  
 ...some additional config files were separated within a HOME/ROOT directory and can be copied into the USER environment, if some settings should not affect the desired result.  
 So there are some preconfigured config files put there and preconfigured for an import into the exclusive desktop-extension!  
     
