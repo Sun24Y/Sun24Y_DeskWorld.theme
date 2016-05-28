@@ -21,7 +21,7 @@ https://launchpad.net/~screenlets
 https://launchpad.net/ubuntu/+source/crystalcursors  
   
 ...some additional config files were separated within a HOME/ROOT directory and can be copied into the USER environment, if some settings should not affect the desired result.  
-So there are some preconfigured config files put there and preconfigured for an import into the exclusive desktop-extension!  
+So some preconfigured config files were put there and are preconfigured for an easy import into the exclusive desktop-extension!  
     
   
 More screenshots of this desktop-environment is available on GoogleDrive:  
