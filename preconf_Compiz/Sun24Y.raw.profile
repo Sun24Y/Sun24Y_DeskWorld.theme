@@ -50,10 +50,9 @@ s0_transparent_manual_only = false
 
 [core]
 as_active_plugins = core;ccp;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;screenshot;firepaint;put;decoration;resizeinfo;loginout;star;animation;fade;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;switcher;zoom;
-as_edge_delay = 6
+as_edge_delay = 500
 as_cursor_theme = crystalcursors
 as_cursor_size = 42
-as_texture_filter = 0
 s0_refresh_rate = 30
 s0_outputs = 1360x768+0+0;
 s0_focus_prevention_level = 3
@@ -65,8 +64,11 @@ s0_texture_compression = true
 s0_water_color = #0808300f
 
 [rotate]
-as_edge_flip_pointer = true
+as_edge_flip_dnd = false
+as_flip_time = 1000
 as_raise_on_rotate = true
+s0_invert_y = true
+s0_invert_x = true
 s0_snap_top = true
 s0_snap_bottom = true
 
