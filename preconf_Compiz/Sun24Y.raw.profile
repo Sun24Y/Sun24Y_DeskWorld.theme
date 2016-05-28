@@ -37,11 +37,15 @@ s0_water_color = #08093008
 
 [cube]
 s0_in = true
+s0_color = #001b51ff
 s0_scale_image = true
 s0_adjust_image = true
 s0_skydome = true
 s0_skydome_image = /home/loop/Bilder/Multi_Universe.jpg
 s0_skydome_animated = true
+s0_skydome_gradient_start_color = #3b72baff
+s0_skydome_gradient_end_color = #6b0016ff
+s0_active_opacity = 100.000000
 s0_transparent_manual_only = false
 
 [core]
