@@ -11,7 +11,7 @@
     <!-- Element: bg[ACTIVE] -->
   <element id ="3" value="#7C0012" disabled="true"/>
     <!-- Element: bg[INSENSITIVE] -->
-  <element id ="4" value="#3E3E3E"/>
+  <element id ="4" value="#182838"/>
     <!-- Element: fg[NORMAL] -->
   <element id ="5" value="#FFCC00"/>
     <!-- Element: fg[PRELIGHT] -->
@@ -23,15 +23,15 @@
     <!-- Element: fg[INSENSITIVE] -->
   <element id ="9" value="#888888"/>
     <!-- Element: base[NORMAL] -->
-  <element id ="10" value="#113388"/>
+  <element id ="10" value="#1A2533"/>
     <!-- Element: base[PRELIGHT] -->
   <element id ="11" value="#7C0012"/>
     <!-- Element: base[SELECTED] -->
-  <element id ="12" value="#545454"/>
+  <element id ="12" value="#1D3751"/>
     <!-- Element: base[ACTIVE] -->
   <element id ="13" value="#7C0011"/>
     <!-- Element: base[INSENSITIVE] -->
-  <element id ="14" value="#3E3E3E"/>
+  <element id ="14" value="#0E2740"/>
     <!-- Element: text[NORMAL] -->
   <element id ="15" value="#FFCC00"/>
     <!-- Element: text[PRELIGHT] -->
@@ -53,7 +53,7 @@
     <!-- Element: bg_pixmap[INSENSITIVE] -->
   <element id ="60" value="60"/>
     <!-- Element: GtkMenuBar::shadow_type -->
-  <element id ="79" value="GTK_SHADOW_NONE"/>
+  <element id ="79" value="GTK_SHADOW_NONE" disabled="true"/>
     <!-- Element: GtkToolbar::shadow_type -->
   <element id ="80" value="GTK_SHADOW_NONE" disabled="true"/>
     <!-- Element: GtkWidget::link-color -->
@@ -195,7 +195,7 @@
     <!-- Element: bg[ACTIVE] -->
   <element id ="29" value="#7C0012" disabled="true"/>
     <!-- Element: bg[INSENSITIVE] -->
-  <element id ="30" value="#3E3E3E"/>
+  <element id ="30" value="#0E3051"/>
     <!-- Element: fg[NORMAL] -->
   <element id ="31" value="#2D0001"/>
     <!-- Element: fg[PRELIGHT] -->
@@ -330,7 +330,7 @@
     <!-- Element: ythickness -->
   <element id ="53" value="1"/>
     <!-- Element: bg[NORMAL] -->
-  <element id ="83" value="#3C3C3C"/>
+  <element id ="83" value="#182838"/>
     <!-- Element: bg[PRELIGHT] -->
   <element id ="84" value="#7C0012" disabled="true"/>
     <!-- Element: bg[SELECTED] -->
@@ -338,7 +338,7 @@
     <!-- Element: bg[ACTIVE] -->
   <element id ="86" value="#008600"/>
     <!-- Element: bg[INSENSITIVE] -->
-  <element id ="87" value="#1E1E1E"/>
+  <element id ="87" value="#182838"/>
     <!-- Element: fg[NORMAL] -->
   <element id ="88" value="#FFCC00"/>
     <!-- Element: fg[PRELIGHT] -->
