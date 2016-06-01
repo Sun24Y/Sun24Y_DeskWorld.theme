@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="star" mtime="1463585637" type="bool" value="true"/>
-	<entry name="spacecraft" mtime="1463585526" type="bool" value="true"/>
-	<entry name="planet" mtime="1463585521" type="bool" value="true"/>
-	<entry name="moon" mtime="1463585515" type="bool" value="true"/>
-	<entry name="galaxy" mtime="1463585507" type="bool" value="true"/>
-	<entry name="asteroid" mtime="1463585473" type="bool" value="true"/>
-</gconf>

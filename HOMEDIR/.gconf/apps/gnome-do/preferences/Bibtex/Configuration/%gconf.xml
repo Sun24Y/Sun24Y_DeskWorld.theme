@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="documentlibrary" mtime="1463841726" type="string">
-		<stringvalue>/home/loop</stringvalue>
-	</entry>
-	<entry name="bibtexfilepath" mtime="1463841726" type="string">
-		<stringvalue>/home/loop/bibtex.bib</stringvalue>
-	</entry>
-</gconf>

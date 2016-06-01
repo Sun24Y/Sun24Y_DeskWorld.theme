@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<channel name="accessibility" version="1.0">
-  <property name="StickyKeys" type="bool" value="false"/>
-  <property name="MouseKeys" type="bool" value="true">
-    <property name="Curve" type="int" value="20"/>
-  </property>
-</channel>

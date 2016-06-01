@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="Service" mtime="1463551760" type="string">
-		<stringvalue>twitter</stringvalue>
-	</entry>
-</gconf>

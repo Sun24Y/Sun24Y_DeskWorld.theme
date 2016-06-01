@@ -1,8 +1,0 @@
-; gnome-commander GtkAccelMap rc-file         -*- scheme -*-
-; this file is an automated accelerator map dump
-;
-; (gtk_accel_path "<main>/Move here" "")
-; (gtk_accel_path "<main>/" "")
-; (gtk_accel_path "<main>/Cancel" "")
-; (gtk_accel_path "<main>/Copy here" "")
-; (gtk_accel_path "<main>/Link here" "")

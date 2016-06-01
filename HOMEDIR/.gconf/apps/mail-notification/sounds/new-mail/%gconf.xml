@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="file" mtime="1463545786" type="string">
-		<stringvalue>/usr/share/mail-notification/new-mail.wav</stringvalue>
-	</entry>
-	<entry name="enabled" mtime="1463523991" type="bool" value="true"/>
-</gconf>

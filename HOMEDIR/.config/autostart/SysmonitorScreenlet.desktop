@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=SysmonitorScreenlet
-Encoding=UTF-8
-Version=1.0
-Type=Application
-Exec= python -u /usr/share/screenlets/Sysmonitor/SysmonitorScreenlet.py
-X-GNOME-Autostart-enabled=true

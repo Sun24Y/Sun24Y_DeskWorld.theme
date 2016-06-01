@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="Shadow" mtime="1464285028" type="bool" value="true"/>
-	<entry name="WindowRadius" mtime="1464285027" type="int" value="-1"/>
-	<entry name="BackgroundColor" mtime="1464285026" type="string">
-		<stringvalue>default</stringvalue>
-	</entry>
-</gconf>

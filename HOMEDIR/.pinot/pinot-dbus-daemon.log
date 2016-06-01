@@ -1,1 +1,0 @@
-FilterFactory::loadFilters: /usr/lib/pinot/filters/libmboxfilter.so: undefined symbol: _Z16get_filter_typesRSt3setISsSt4lessISsESaISsEE

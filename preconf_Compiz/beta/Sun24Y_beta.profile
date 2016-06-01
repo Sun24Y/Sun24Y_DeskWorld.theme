@@ -626,15 +626,15 @@ s0_strength = 20.000000
 s0_on_transformed_screen = false
 
 [core]
-as_active_plugins = core;ccp;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;screenshot;firepaint;put;decoration;resizeinfo;loginout;star;animation;fade;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;switcher;zoom;
+as_active_plugins = core;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;screenshot;firepaint;put;decoration;resizeinfo;loginout;star;animation;fade;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;switcher;zoom;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
-as_edge_delay = 6
+as_edge_delay = 500
 as_cursor_theme = crystalcursors
 as_cursor_size = 42
 as_ping_delay = 5000
-as_texture_filter = 0
+as_texture_filter = 1
 as_click_to_focus = true
 as_raise_on_click = true
 as_autoraise = true
@@ -770,10 +770,10 @@ s0_constrain_y = true
 as_yv12 = true
 
 [rotate]
-as_edge_flip_pointer = true
+as_edge_flip_pointer = false
 as_edge_flip_window = true
-as_edge_flip_dnd = true
-as_flip_time = 350
+as_edge_flip_dnd = false
+as_flip_time = 1000
 as_raise_on_rotate = true
 as_initiate_button = <Control><Primary><Alt>Button1
 as_rotate_left_key = <Control><Primary><Alt>Left
@@ -812,8 +812,8 @@ as_rotate_to_9_window_key = Disabled
 as_rotate_to_10_window_key = Disabled
 as_rotate_to_11_window_key = Disabled
 as_rotate_to_12_window_key = Disabled
-s0_invert_y = false
-s0_invert_x = false
+s0_invert_y = true
+s0_invert_x = true
 s0_sensitivity = 1.000000
 s0_acceleration = 4.000000
 s0_snap_top = true
