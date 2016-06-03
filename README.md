@@ -37,6 +37,7 @@ You can read a summary to get information about an installation for having a cus
 https://github.com/Sun24Y/Desktop/wiki/A-How-to-for-installing-a-customized-Linux-Debian-desktop-environment-on-your-local-machine
   
   
+  
 Kind regards,  
   
 Arjuna Noorsanto [Administrator],
