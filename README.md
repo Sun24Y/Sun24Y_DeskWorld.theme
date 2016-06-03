@@ -26,12 +26,15 @@ https://launchpad.net/ubuntu/+source/crystalcursors
 ...some additional config files were separated within a HOME/ROOT directory and can be copied into the USER environment, if some settings should not affect the desired result.  
 So some preconfigured config files were put there and are preconfigured for an easy import into the exclusive desktop-extension!  
     
-  
 More screenshots of this desktop-environment is available on GoogleDrive:  
 https://drive.google.com/folderview?id=0B5YtQ2Ka-H8XQTlXNVA5VzB6dms&usp=sharing  
+  
+You can read a summary to get information about an installation for having a customized Linux Debian desktopEnvironment.  
+https://github.com/Sun24Y/Desktop/wiki/A-How-to-for-installing-a-customized-Linux-Debian-desktop-environment-on-your-local-machine
   
   
 Kind regards,  
   
-Arjuna Noorsanto [Administrator]  
+Arjuna Noorsanto [Administrator],
+aka. Loopshape  
 eMail: <awebgo.net@gmail.com>  
