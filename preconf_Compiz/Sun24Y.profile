@@ -626,7 +626,7 @@ s0_strength = 20.000000
 s0_on_transformed_screen = false
 
 [core]
-as_active_plugins = core;ccp;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;screenshot;firepaint;put;decoration;resizeinfo;loginout;star;animation;fade;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;switcher;zoom;
+as_active_plugins = core;ccp;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;screenshot;firepaint;put;decoration;resizeinfo;loginout;star;animation;fade;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;switcher;zoom;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
