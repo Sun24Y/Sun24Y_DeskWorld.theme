@@ -616,7 +616,7 @@ as_toggle_window_key = <Super>f
 as_toggle_screen_key = <Super>d
 as_switch_filter_key = <Control><Primary><Super>s
 s0_filters = negative;negative-green;blueish-filter;sepia;grayscale;deuteranopia;protonopia;
-s0_filter_decorations = false
+s0_filter_decorations = true
 s0_filter_match = any
 
 [mblur]
@@ -626,7 +626,7 @@ s0_strength = 20.000000
 s0_on_transformed_screen = false
 
 [core]
-as_active_plugins = core;ccp;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;screenshot;firepaint;put;decoration;resizeinfo;loginout;star;animation;fade;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;switcher;zoom;
+as_active_plugins = core;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
@@ -848,14 +848,14 @@ as_stretch_match =
 [opacify]
 as_toggle_key = <Super>o
 as_toggle_reset = true
-as_timeout = 700
+as_timeout = 1500
 as_init_toggle = true
-s0_only_if_block = false
-s0_focus_instant = false
-s0_no_delay_change = false
+s0_only_if_block = true
+s0_focus_instant = true
+s0_no_delay_change = true
 s0_window_match = Normal | Dialog | ModalDialog | Utility | Toolbar | Fullscreen
 s0_active_opacity = 100
-s0_passive_opacity = 10
+s0_passive_opacity = 33
 
 [ring]
 as_next_key = <Super>Tab
@@ -962,7 +962,7 @@ s0_edgeflip_dnd = false
 s0_thumb_size = 200
 s0_show_delay = 100
 s0_border = 16
-s0_thumb_color = #0000007f
+s0_thumb_color = #4e00307f
 s0_fade_speed = 0.500000
 s0_current_viewport = true
 s0_always_on_top = true
@@ -1333,11 +1333,11 @@ as_window_margin = 0
 
 [3d]
 s0_window_match = Toolbar | Utility | Dialog | Normal | Unknown
-s0_min_cube_size = 60
-s0_max_window_space = 10
+s0_min_cube_size = 40
+s0_max_window_space = 33
 s0_manual_only = true
-s0_width = 0.300000
-s0_bevel = 2
+s0_width = 0.400000
+s0_bevel = 1
 s0_width_color = #09ac00ff
 s0_width_color_inactive = #770000ff
 s0_bevel_topleft = true
@@ -1373,42 +1373,42 @@ s0_unresponsive_brightness = 65
 s0_unresponsive_saturation = 0
 
 [fireflies]
-as_num_snowflakes = 1500
-as_snow_size = 10.000000
-as_snow_speed = 85
-as_snow_update_delay = 40
-as_screen_boxing = 400
+as_num_snowflakes = 800
+as_snow_size = 4.000000
+as_snow_speed = 0
+as_snow_update_delay = 10
+as_screen_boxing = 512
 as_screen_depth = 1000
-as_snow_over_windows = false
+as_snow_over_windows = true
 as_snow_rotation = true
-as_snow_direction = 0
+as_snow_direction = 1
 as_snow_textures = fireflies/firefly1.png;fireflies/firefly2.png;fireflies/firefly3.png;fireflies/firefly4.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = <Super>F7
+as_toggle_key = <Alt><Super>space
 
 [toggledeco]
 as_trigger_key = <Shift>d
 as_trigger_all_key = <Shift>a
 
 [wizard]
-as_initiate = <Super>w
+as_initiate = <Shift>space
 s0_gx = 0.000000
 s0_gy = 0.000000
-s0_g_strength = 200;
+s0_g_strength = 300;
 s0_g_posx = 0;
 s0_g_posy = 0;
 s0_g_speed = 100;
 s0_g_angle = 20;
 s0_g_movement = 1;
-s0_e_active = true;false;true;true;false;true;true;true;true;true;
+s0_e_active = true;true;true;true;true;true;true;true;true;true;
 s0_e_name = Fire Ball;Flame Pointer;Magic Pointer;Magic Rain (On/Off);Magic Rain with Gravity Particles;Random Red Explosion;Random Yellow Explosion;Random Green Explosion;Random Blue Explosion;Random Purple Explosion;
-s0_e_trigger = 0;0;1;3;0;2;2;2;2;2;
+s0_e_trigger = 0;1;1;3;1;2;2;2;2;2;
 s0_e_posx = 0;0;0;1000;1000;0;0;0;0;0;
 s0_e_posy = 0;0;0;0;0;0;0;0;0;0;
 s0_e_speed = 100;0;0;0;0;1000;1000;1000;1000;1000;
 s0_e_angle = 326;0;0;0;0;13;33;53;73;93;
-s0_e_movement = 1;0;0;3;3;3;3;3;3;3;
+s0_e_movement = 1;1;0;3;1;3;3;3;3;3;
 s0_e_count = 50;20;40;20;20;200;200;200;200;200;
 s0_e_h = 67;100;0;0;0;0;167;333;667;833;
 s0_e_dh = 100;150;500;500;500;133;133;133;133;133;
@@ -1437,10 +1437,10 @@ s0_e_dg = 0;0;0;0;200;0;0;0;0;0;
 s0_e_gp = 0;0;0;0;10;0;0;0;0;0;
 s0_hard_limit = 3000
 s0_soft_limit = 2000
-s0_darken = 0.900000
+s0_darken = 1.000000
 s0_blend = true
-s0_tnew = 0.980000
-s0_told = 0.400000
+s0_tnew = 1.000000
+s0_told = 0.000000
 
 [titleinfo]
 s0_show_remote_machine = true
@@ -1514,11 +1514,11 @@ as_activate_demands_attention_key = Disabled
 as_to_next_output_key = Disabled
 
 [wallpaper]
-s0_bg_image = 
-s0_bg_image_pos = 
-s0_bg_fill_type = 
-s0_bg_color1 = 
-s0_bg_color2 = 
+s0_bg_image = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Spiral_Inverter_Cycle.jpg;
+s0_bg_image_pos = 0;
+s0_bg_fill_type = 0;
+s0_bg_color1 = #490004ff;
+s0_bg_color2 = #004002ff;
 
 [commands]
 as_command0 = 

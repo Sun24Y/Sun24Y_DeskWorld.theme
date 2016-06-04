@@ -48,8 +48,11 @@ s0_skydome_gradient_end_color = #6b0016ff
 s0_active_opacity = 100.000000
 s0_transparent_manual_only = false
 
+[colorfilter]
+s0_filter_decorations = true
+
 [core]
-as_active_plugins = core;ccp;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;screenshot;firepaint;put;decoration;resizeinfo;loginout;star;animation;fade;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;switcher;zoom;
+as_active_plugins = core;mousepoll;text;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;blur;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_edge_delay = 500
 as_cursor_theme = crystalcursors
 as_cursor_size = 42
@@ -72,6 +75,13 @@ s0_invert_x = true
 s0_snap_top = true
 s0_snap_bottom = true
 
+[opacify]
+as_timeout = 1500
+s0_only_if_block = true
+s0_focus_instant = true
+s0_no_delay_change = true
+s0_passive_opacity = 33
+
 [wall]
 as_outline_color = #333333d9
 as_background_gradient_base_color = #cccce6d9
@@ -85,7 +95,7 @@ as_arrow_base_color = #e6e6e6d9
 as_arrow_shadow_color = #dcdcdcd9
 
 [thumbnail]
-s0_thumb_color = #0000007f
+s0_thumb_color = #4e00307f
 
 [freewins]
 s0_circle_color = #5400fb80
@@ -117,21 +127,47 @@ s0_bonanza_color = #ff3305ff
 as_quality = 75
 
 [3d]
-s0_bevel = 2
+s0_min_cube_size = 40
+s0_max_window_space = 33
+s0_width = 0.400000
+s0_bevel = 1
 s0_width_color = #09ac00ff
 s0_width_color_inactive = #770000ff
 s0_bevel_bottomleft = true
 s0_bevel_bottomright = true
 
+[fireflies]
+as_num_snowflakes = 800
+as_snow_size = 4.000000
+as_snow_speed = 0
+as_snow_update_delay = 10
+as_screen_boxing = 512
+as_snow_over_windows = true
+as_snow_direction = 1
+as_toggle_key = <Alt><Super>space
+
 [wizard]
+as_initiate = <Shift>space
 s0_gy = 0.000000
+s0_g_strength = 300;
 s0_g_movement = 1;
-s0_e_active = true;false;true;true;false;true;true;true;true;true;
-s0_e_movement = 1;0;0;3;3;3;3;3;3;3;
+s0_e_active = true;true;true;true;true;true;true;true;true;true;
+s0_e_trigger = 0;1;1;3;1;2;2;2;2;2;
+s0_e_movement = 1;1;0;3;1;3;3;3;3;3;
+s0_darken = 1.000000
+s0_tnew = 1.000000
+s0_told = 0.000000
 
 [animationaddon]
 s0_beam_color = #7f7f7fff
 s0_fire_color = #ff3305ff
+
+[wallpaper]
+s0_bg_image = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Spiral_Inverter_Cycle.jpg;
+s0_bg_image_pos = 0;
+s0_bg_fill_type = 0;
+s0_bg_color1 = #490004ff;
+s0_bg_color2 = #004002ff;
 
 [firepaint]
 s0_num_particles = 2000
