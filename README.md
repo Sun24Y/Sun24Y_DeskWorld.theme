@@ -37,11 +37,12 @@ https://drive.google.com/folderview?id=0B5YtQ2Ka-H8XQTlXNVA5VzB6dms&usp=sharing
 **https://github.com/Sun24Y/Sun24Y_DeskWorld.theme/wiki/A-summary-for-installing-a-customized-Linux-Debian-desktop-environment-on-your-local-machine**  
   
   
-  
-
+#    
+--------------------------------------------------------------------------------------------------------------
+#  
 Kind regards,  
   
-Arjuna Noorsanto [Administrator],
+Arjuna Noorsanto [Administrator],  
 aka. Loopshape  
 
 eMail: <awebgo.net@gmail.com>  
