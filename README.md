@@ -34,7 +34,7 @@ https://drive.google.com/folderview?id=0B5YtQ2Ka-H8XQTlXNVA5VzB6dms&usp=sharing
   
 ### INSTALLATION
 You can read a summary to get information about an installation for having a customized Linux Debian desktopEnvironment:    
-https://github.com/Sun24Y/Desktop/wiki/A-How-to-for-installing-a-customized-Linux-Debian-desktop-environment-on-your-local-machine
+https://github.com/Sun24Y/Sun24Y_DeskWorld.theme/wiki/A-summary-for-installing-a-customized-Linux-Debian-desktop-environment-on-your-local-machine
   
   
   
@@ -42,4 +42,5 @@ Kind regards,
   
 Arjuna Noorsanto [Administrator],
 aka. Loopshape  
+
 eMail: <awebgo.net@gmail.com>  
