@@ -5,7 +5,7 @@
     <!-- Element: bg[NORMAL] -->
   <element id ="0" value="#182838"/>
     <!-- Element: bg[PRELIGHT] -->
-  <element id ="1" value="#7C0012"/>
+  <element id ="1" value="#7A1826"/>
     <!-- Element: bg[SELECTED] -->
   <element id ="2" value="#B53300"/>
     <!-- Element: bg[ACTIVE] -->
@@ -209,7 +209,7 @@
     <!-- Element: xthickness -->
   <element id ="36" value="1"/>
     <!-- Element: ythickness -->
-  <element id ="37" value="1"/>
+  <element id ="37" value="0"/>
     <!-- Element: font_name -->
   <element id ="54" value="Sans Bold 7"/>
     <!-- Element: bg_pixmap[NORMAL] -->
@@ -280,9 +280,9 @@
     <!-- Element: bg[SELECTED] -->
   <element id ="48" value="#FF8800"/>
     <!-- Element: xthickness -->
-  <element id ="49" value="1"/>
+  <element id ="49" value="2"/>
     <!-- Element: ythickness -->
-  <element id ="50" value="1"/>
+  <element id ="50" value="2"/>
 
     <!-- Engine: industrial -->
   <engine name="industrial" category="progressbar">
@@ -332,7 +332,7 @@
     <!-- Element: bg[NORMAL] -->
   <element id ="83" value="#182838"/>
     <!-- Element: bg[PRELIGHT] -->
-  <element id ="84" value="#7C0012"/>
+  <element id ="84" value="#7A1827"/>
     <!-- Element: bg[SELECTED] -->
   <element id ="85" value="#007A00"/>
     <!-- Element: bg[ACTIVE] -->
