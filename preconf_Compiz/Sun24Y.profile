@@ -1700,13 +1700,13 @@ s0_timestep = 0.500000
 
 [firepaint]
 as_initiate_key = Disabled
-as_initiate_button = <Shift><Super>Button1
-as_clear_key = <Shift><Super>c
+as_initiate_button = <Super>Button1
+as_clear_key = Disabled
 as_clear_button = Disabled
 s0_num_particles = 2000
-s0_fire_size = 20.000000
-s0_fire_slowdown = 0.500000
-s0_fire_life = 0.700000
+s0_fire_size = 25.000000
+s0_fire_slowdown = 5.000000
+s0_fire_life = 0.950000
 s0_fire_color = #ff3305ff
 s0_fire_mystical = false
 s0_bg_brightness = 100

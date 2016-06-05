@@ -170,8 +170,12 @@ s0_bg_color1 = #490004ff;
 s0_bg_color2 = #004002ff;
 
 [firepaint]
+as_initiate_button = <Super>Button1
+as_clear_key = Disabled
 s0_num_particles = 2000
-s0_fire_size = 20.000000
+s0_fire_size = 25.000000
+s0_fire_slowdown = 5.000000
+s0_fire_life = 0.950000
 s0_fire_color = #ff3305ff
 s0_bg_brightness = 100
 
