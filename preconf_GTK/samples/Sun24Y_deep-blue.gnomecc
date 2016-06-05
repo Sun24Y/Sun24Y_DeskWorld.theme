@@ -3,7 +3,7 @@
 
   <!-- Category: default -->
     <!-- Element: bg[NORMAL] -->
-  <element id ="0" value="#182838"/>
+  <element id ="0" value="#172F42"/>
     <!-- Element: bg[PRELIGHT] -->
   <element id ="1" value="#7A1826"/>
     <!-- Element: bg[SELECTED] -->
