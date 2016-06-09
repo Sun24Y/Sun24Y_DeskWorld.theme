@@ -2,11 +2,10 @@
 >**SUN24Y DeskWorld-Theme to have a customized Debian Linux desktop-environment**  
   
 Take a look at the animated theme preview of this desktop-environment on YouTube ;)  
-  
-This is a video about the common desktop features:  
 https://youtu.be/kUqSXFSfkcE  
-And here is another video that shows some visual effects:  
+... or view another video that shows especially the visual-effects:  
 https://youtu.be/Yw0E0mq2Oo4  
+  
   
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XQVNxaENPTEVZRWM)
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XYmNncnpvZGFwSHc)  
