@@ -609,7 +609,7 @@ as_snow_direction = 0
 as_snow_textures = snow/snowflake.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = Menu
+as_toggle_key = <Super>space
 
 [colorfilter]
 as_toggle_window_key = <Super>f
@@ -1082,7 +1082,7 @@ as_snow_direction = 0
 as_snow_textures = /usr/share/icons/Adwaita/8x8/emblems/emblem-unreadable.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = <Super>space
+as_toggle_key = Menu
 
 [dialog]
 as_dialogtypes = (override_redirect=0) & !(type=Menu | class=Gimp | class=Inkscape | (class=Firefox & type=Tooltip))

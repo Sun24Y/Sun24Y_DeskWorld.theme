@@ -50,7 +50,7 @@ s0_transparent_manual_only = false
 
 [snow]
 as_snow_over_windows = true
-as_toggle_key = Menu
+as_toggle_key = <Super>space
 
 [colorfilter]
 s0_filter_decorations = true
@@ -116,7 +116,7 @@ as_num_snowflakes = 2500
 as_snow_size = 0.750000
 as_snow_over_windows = true
 as_snow_textures = /usr/share/icons/Adwaita/8x8/emblems/emblem-unreadable.png;
-as_toggle_key = <Super>space
+as_toggle_key = Menu
 
 [dialog]
 as_saturation = 33.000000
