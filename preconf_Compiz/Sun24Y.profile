@@ -603,13 +603,13 @@ as_snow_speed = 85
 as_snow_update_delay = 40
 as_screen_boxing = 400
 as_screen_depth = 1000
-as_snow_over_windows = false
+as_snow_over_windows = true
 as_snow_rotation = true
-as_snow_direction = 0
+as_snow_direction = 1
 as_snow_textures = snow/snowflake.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = <Super>F3
+as_toggle_key = Menu
 
 [colorfilter]
 as_toggle_window_key = <Super>f
@@ -626,7 +626,7 @@ s0_strength = 20.000000
 s0_on_transformed_screen = false
 
 [core]
-as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;swap;blur;group;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;reflex;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;
+as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;swap;blur;group;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;reflex;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;snow;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
@@ -1068,21 +1068,21 @@ s0_title_font_color = #ffffffff
 s0_title_text_placement = 2
 
 [star]
-as_num_snowflakes = 100
-as_snow_size = 5.000000
+as_num_snowflakes = 2500
+as_snow_size = 0.750000
 as_snow_speed = 85
 as_snow_update_delay = 40
 as_screen_boxing = 400
 as_screen_depth = 1000
 as_star_offset_x = 0
 as_star_offset_y = 0
-as_snow_over_windows = false
+as_snow_over_windows = true
 as_snow_rotation = true
 as_snow_direction = 0
-as_snow_textures = /usr/share/icons/Adwaita/256x256/emotes/face-smile.png;
+as_snow_textures = /usr/share/icons/Adwaita/8x8/emblems/emblem-unreadable.png;
 as_use_blending = true
 as_use_textures = true
-as_toggle_key = <Super>F3
+as_toggle_key = <Super>space
 
 [dialog]
 as_dialogtypes = (override_redirect=0) & !(type=Menu | class=Gimp | class=Inkscape | (class=Firefox & type=Tooltip))
@@ -1373,16 +1373,16 @@ s0_unresponsive_brightness = 65
 s0_unresponsive_saturation = 0
 
 [fireflies]
-as_num_snowflakes = 800
-as_snow_size = 4.000000
+as_num_snowflakes = 3000
+as_snow_size = 1.750000
 as_snow_speed = 0
 as_snow_update_delay = 10
 as_screen_boxing = 512
-as_screen_depth = 1000
+as_screen_depth = 2000
 as_snow_over_windows = true
 as_snow_rotation = true
-as_snow_direction = 1
-as_snow_textures = fireflies/firefly1.png;fireflies/firefly2.png;fireflies/firefly3.png;fireflies/firefly4.png;
+as_snow_direction = 0
+as_snow_textures = /usr/share/icons/Adwaita/16x16/emotes/emote-love.png;/usr/share/icons/Adwaita/8x8/emblems/emblem-default.png;/usr/share/icons/Adwaita/8x8/emblems/emblem-new.png;/usr/share/icons/Adwaita/8x8/emblems/emblem-readonly.png;/usr/share/icons/Adwaita/16x16/emotes/face-glasses.png;fireflies/firefly1.png;fireflies/firefly2.png;fireflies/firefly3.png;fireflies/firefly4.png;
 as_use_blending = true
 as_use_textures = true
 as_toggle_key = <Alt><Super>space
@@ -1392,7 +1392,7 @@ as_trigger_key = <Shift>d
 as_trigger_all_key = <Shift>a
 
 [wizard]
-as_initiate = <Shift>space
+as_initiate = <Alt>space
 s0_gx = 0.000000
 s0_gy = 0.000000
 s0_g_strength = 300;
@@ -1400,7 +1400,7 @@ s0_g_posx = 0;
 s0_g_posy = 0;
 s0_g_speed = 100;
 s0_g_angle = 20;
-s0_g_movement = 1;
+s0_g_movement = 3;
 s0_e_active = true;true;true;true;true;true;true;true;true;true;
 s0_e_name = Fire Ball;Flame Pointer;Magic Pointer;Magic Rain (On/Off);Magic Rain with Gravity Particles;Random Red Explosion;Random Yellow Explosion;Random Green Explosion;Random Blue Explosion;Random Purple Explosion;
 s0_e_trigger = 0;1;1;3;1;2;2;2;2;2;
@@ -1438,9 +1438,9 @@ s0_e_gp = 0;0;0;0;10;0;0;0;0;0;
 s0_hard_limit = 3000
 s0_soft_limit = 2000
 s0_darken = 1.000000
-s0_blend = true
+s0_blend = false
 s0_tnew = 1.000000
-s0_told = 0.000000
+s0_told = 1.000000
 
 [titleinfo]
 s0_show_remote_machine = true

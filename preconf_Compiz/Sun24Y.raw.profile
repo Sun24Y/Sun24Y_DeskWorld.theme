@@ -48,11 +48,16 @@ s0_skydome_gradient_end_color = #6b0016ff
 s0_active_opacity = 100.000000
 s0_transparent_manual_only = false
 
+[snow]
+as_snow_over_windows = true
+as_snow_direction = 1
+as_toggle_key = Menu
+
 [colorfilter]
 s0_filter_decorations = true
 
 [core]
-as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;swap;blur;group;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;reflex;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;
+as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;swap;blur;group;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;reflex;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;snow;
 as_edge_delay = 500
 as_cursor_theme = crystalcursors
 as_cursor_size = 42
@@ -108,7 +113,11 @@ s0_ground_color1 = #b3b3b3cc
 s0_ground_color2 = #b3b3b300
 
 [star]
-as_snow_textures = /usr/share/icons/Adwaita/256x256/emotes/face-smile.png;
+as_num_snowflakes = 2500
+as_snow_size = 0.750000
+as_snow_over_windows = true
+as_snow_textures = /usr/share/icons/Adwaita/8x8/emblems/emblem-unreadable.png;
+as_toggle_key = <Super>space
 
 [dialog]
 as_saturation = 33.000000
@@ -137,26 +146,28 @@ s0_bevel_bottomleft = true
 s0_bevel_bottomright = true
 
 [fireflies]
-as_num_snowflakes = 800
-as_snow_size = 4.000000
+as_num_snowflakes = 3000
+as_snow_size = 1.750000
 as_snow_speed = 0
 as_snow_update_delay = 10
 as_screen_boxing = 512
+as_screen_depth = 2000
 as_snow_over_windows = true
-as_snow_direction = 1
+as_snow_textures = /usr/share/icons/Adwaita/16x16/emotes/emote-love.png;/usr/share/icons/Adwaita/8x8/emblems/emblem-default.png;/usr/share/icons/Adwaita/8x8/emblems/emblem-new.png;/usr/share/icons/Adwaita/8x8/emblems/emblem-readonly.png;/usr/share/icons/Adwaita/16x16/emotes/face-glasses.png;fireflies/firefly1.png;fireflies/firefly2.png;fireflies/firefly3.png;fireflies/firefly4.png;
 as_toggle_key = <Alt><Super>space
 
 [wizard]
-as_initiate = <Shift>space
+as_initiate = <Alt>space
 s0_gy = 0.000000
 s0_g_strength = 300;
-s0_g_movement = 1;
+s0_g_movement = 3;
 s0_e_active = true;true;true;true;true;true;true;true;true;true;
 s0_e_trigger = 0;1;1;3;1;2;2;2;2;2;
 s0_e_movement = 1;1;0;3;1;3;3;3;3;3;
 s0_darken = 1.000000
+s0_blend = false
 s0_tnew = 1.000000
-s0_told = 0.000000
+s0_told = 1.000000
 
 [animationaddon]
 s0_beam_color = #7f7f7fff
