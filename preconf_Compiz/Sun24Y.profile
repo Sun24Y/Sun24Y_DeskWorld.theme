@@ -626,7 +626,7 @@ s0_strength = 20.000000
 s0_on_transformed_screen = false
 
 [core]
-as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;swap;blur;group;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;reflex;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;snow;
+as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
@@ -1395,12 +1395,12 @@ as_trigger_all_key = <Shift>a
 as_initiate = <Alt>space
 s0_gx = 0.000000
 s0_gy = 0.000000
-s0_g_strength = 300;
-s0_g_posx = 0;
-s0_g_posy = 0;
-s0_g_speed = 100;
-s0_g_angle = 20;
-s0_g_movement = 3;
+s0_g_strength = 
+s0_g_posx = 
+s0_g_posy = 
+s0_g_speed = 
+s0_g_angle = 
+s0_g_movement = 
 s0_e_active = true;true;true;true;true;true;true;true;true;true;
 s0_e_name = Fire Ball;Flame Pointer;Magic Pointer;Magic Rain (On/Off);Magic Rain with Gravity Particles;Random Red Explosion;Random Yellow Explosion;Random Green Explosion;Random Blue Explosion;Random Purple Explosion;
 s0_e_trigger = 0;1;1;3;1;2;2;2;2;2;
@@ -1435,12 +1435,12 @@ s0_e_dsnew = 150;30;25;50;50;25;25;25;25;25;
 s0_e_g = 0;0;0;0;0;0;0;0;0;0;
 s0_e_dg = 0;0;0;0;200;0;0;0;0;0;
 s0_e_gp = 0;0;0;0;10;0;0;0;0;0;
-s0_hard_limit = 3000
-s0_soft_limit = 2000
+s0_hard_limit = 5000
+s0_soft_limit = 5000
 s0_darken = 1.000000
-s0_blend = false
+s0_blend = true
 s0_tnew = 1.000000
-s0_told = 1.000000
+s0_told = 0.000000
 
 [titleinfo]
 s0_show_remote_machine = true

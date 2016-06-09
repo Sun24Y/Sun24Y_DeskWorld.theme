@@ -57,7 +57,7 @@ as_toggle_key = Menu
 s0_filter_decorations = true
 
 [core]
-as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;star;animation;fade;fireflies;animationaddon;snap;move;swap;blur;group;trailfocus;animationsim;obs;addhelper;cube;scale;colorfilter;anaglyph;video;rotate;reflex;opacify;showmouse;showdesktop;animationplus;3d;wizard;bicubic;mag;cubeaddon;static;zoom;ezoom;switcher;snow;
+as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_edge_delay = 500
 as_cursor_theme = crystalcursors
 as_cursor_size = 42
@@ -159,15 +159,20 @@ as_toggle_key = <Alt><Super>space
 [wizard]
 as_initiate = <Alt>space
 s0_gy = 0.000000
-s0_g_strength = 300;
-s0_g_movement = 3;
+s0_g_strength = 
+s0_g_posx = 
+s0_g_posy = 
+s0_g_speed = 
+s0_g_angle = 
+s0_g_movement = 
 s0_e_active = true;true;true;true;true;true;true;true;true;true;
 s0_e_trigger = 0;1;1;3;1;2;2;2;2;2;
 s0_e_movement = 1;1;0;3;1;3;3;3;3;3;
+s0_hard_limit = 5000
+s0_soft_limit = 5000
 s0_darken = 1.000000
-s0_blend = false
 s0_tnew = 1.000000
-s0_told = 1.000000
+s0_told = 0.000000
 
 [animationaddon]
 s0_beam_color = #7f7f7fff
