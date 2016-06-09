@@ -50,7 +50,6 @@ s0_transparent_manual_only = false
 
 [snow]
 as_snow_over_windows = true
-as_snow_direction = 1
 as_toggle_key = Menu
 
 [colorfilter]
@@ -188,6 +187,7 @@ s0_bg_color2 = #004002ff;
 [firepaint]
 as_initiate_button = <Super>Button1
 as_clear_key = Disabled
+as_clear_button = <LeftEdge><RightEdge><TopEdge><BottomEdge><TopLeftEdge><TopRightEdge><BottomLeftEdge><BottomRightEdge>Button1
 s0_num_particles = 2000
 s0_fire_size = 25.000000
 s0_fire_slowdown = 5.000000
