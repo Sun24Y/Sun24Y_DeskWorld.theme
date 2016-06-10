@@ -336,7 +336,7 @@ as_gradient_3 = #d9d9d9cc
 as_border_color = #e5e5e5ff
 
 [session]
-as_save_legacy = false
+as_save_legacy = true
 as_ignore_match = 
 
 [loginout]
@@ -434,8 +434,8 @@ s0_light_inclination = 90.000000
 s0_light_ambient = 0.300000
 
 [neg]
-as_window_toggle_key = <Super>n
-as_screen_toggle_key = <Super>m
+as_window_toggle_key = Disabled
+as_screen_toggle_key = <Super>i
 s0_neg_match = any
 s0_exclude_match = type=Desktop
 
@@ -493,14 +493,14 @@ as_unfold_key = Disabled
 as_next_slide_key = Disabled
 as_prev_slide_key = Disabled
 s0_mipmap = true
-s0_multioutput_mode = 0
+s0_multioutput_mode = 2
 s0_in = true
 s0_acceleration = 4.000000
 s0_speed = 1.500000
 s0_timestep = 1.200000
 s0_color = #51001bff
 s0_scale_image = true
-s0_images = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Color_Swirl.jpg;
+s0_images = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Color_Swirl.jpg;/home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/stars.jpg;
 s0_adjust_image = true
 s0_skydome = true
 s0_skydome_image = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Banner_Universe.jpg
@@ -626,7 +626,7 @@ s0_strength = 20.000000
 s0_on_transformed_screen = false
 
 [core]
-as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
+as_active_plugins = core;ccp;mousepoll;text;maximumize;minimize;vpswitch;place;session;shelf;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;smartput;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;putplus;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;scaleaddon;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
@@ -714,23 +714,23 @@ s0_grid_quality = 3
 
 [scaleaddon]
 as_close_key = Disabled
-as_close_button = Button2
+as_close_button = Disabled
 as_pull_key = Disabled
 as_pull_button = Disabled
 as_zoom_key = Disabled
-as_zoom_button = Button3
-s0_window_title = 1
+as_zoom_button = Disabled
+s0_window_title = 2
 s0_title_font = Sans
-s0_title_bold = false
+s0_title_bold = true
 s0_title_size = 10
 s0_border_size = 3
 s0_font_color = #ffffffff
 s0_back_color = #00000099
-s0_window_highlight = false
-s0_highlight_color = #ffffff96
+s0_window_highlight = true
+s0_highlight_color = #5a00ff96
 s0_layout_mode = 0
 s0_constrain_pull_to_screen = true
-s0_exit_after_pull = false
+s0_exit_after_pull = true
 
 [crashhandler]
 as_enabled = true
@@ -760,10 +760,10 @@ as_saturation = 30.000000
 as_brightness = 80.000000
 
 [throw]
-s0_velocity_x = 10.000000
-s0_velocity_y = 10.000000
-s0_friction_constant = 10.000000
-s0_constrain_x = false
+s0_velocity_x = 1.000000
+s0_velocity_y = 1.000000
+s0_friction_constant = 1.000000
+s0_constrain_x = true
 s0_constrain_y = true
 
 [video]
@@ -775,14 +775,14 @@ as_edge_flip_window = true
 as_edge_flip_dnd = false
 as_flip_time = 1000
 as_raise_on_rotate = true
-as_initiate_button = <Control><Primary><Alt>Button1
-as_rotate_left_key = <Control><Primary><Alt>Left
+as_initiate_button = Disabled
+as_rotate_left_key = Disabled
 as_rotate_left_button = Disabled
-as_rotate_right_key = <Control><Primary><Alt>Right
+as_rotate_right_key = Disabled
 as_rotate_right_button = Disabled
-as_rotate_left_window_key = <Shift><Control><Primary><Alt>Left
+as_rotate_left_window_key = Disabled
 as_rotate_left_window_button = Disabled
-as_rotate_right_window_key = <Shift><Control><Primary><Alt>Right
+as_rotate_right_window_key = Disabled
 as_rotate_right_window_button = Disabled
 as_rotate_to_key = Disabled
 as_rotate_window_key = Disabled
@@ -1150,7 +1150,7 @@ s0_all_random = false
 s0_time_step = 10
 
 [showmouse]
-as_initiate = <Super>k
+as_initiate = Disabled
 as_initiate_button = Disabled
 as_initiate_edge = Left|Right|Top|Bottom|TopLeft|TopRight|BottomLeft|BottomRight
 s0_num_particles = 200

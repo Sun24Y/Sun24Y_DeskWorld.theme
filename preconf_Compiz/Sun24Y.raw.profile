@@ -45,19 +45,27 @@ as_gradient_2 = #f3f3f3cc
 as_gradient_3 = #d9d9d9cc
 as_border_color = #e5e5e5ff
 
+[session]
+as_save_legacy = true
+
 [atlantis]
 s0_creature_color = #ffffffff;#60a0ffff;#ff7000ff;#ffff00ff;#ff0000ff;
 s0_plant_color = #00d010ff;#00d010ff;#8090ff0c;
 s0_ground_color = #855e00ff
 s0_water_color = #08093008
 
+[neg]
+as_window_toggle_key = Disabled
+as_screen_toggle_key = <Super>i
+
 [cube]
 as_unfold_key = Disabled
 as_next_slide_key = Disabled
+s0_multioutput_mode = 2
 s0_in = true
 s0_color = #51001bff
 s0_scale_image = true
-s0_images = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Color_Swirl.jpg;
+s0_images = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Color_Swirl.jpg;/home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/stars.jpg;
 s0_adjust_image = true
 s0_skydome = true
 s0_skydome_image = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Banner_Universe.jpg
@@ -75,7 +83,7 @@ as_toggle_key = <Super>space
 s0_filter_decorations = true
 
 [core]
-as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
+as_active_plugins = core;ccp;mousepoll;text;maximumize;minimize;vpswitch;place;session;shelf;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;smartput;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;putplus;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;scaleaddon;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_edge_delay = 500
 as_cursor_theme = crystalcursors
 as_cursor_size = 42
@@ -89,10 +97,30 @@ s0_texture_compression = true
 [snowglobe]
 s0_water_color = #0808300f
 
+[scaleaddon]
+as_close_button = Disabled
+as_zoom_button = Disabled
+s0_window_title = 2
+s0_title_bold = true
+s0_window_highlight = true
+s0_highlight_color = #5a00ff96
+s0_exit_after_pull = true
+
+[throw]
+s0_velocity_x = 1.000000
+s0_velocity_y = 1.000000
+s0_friction_constant = 1.000000
+s0_constrain_x = true
+
 [rotate]
 as_edge_flip_dnd = false
 as_flip_time = 1000
 as_raise_on_rotate = true
+as_initiate_button = Disabled
+as_rotate_left_key = Disabled
+as_rotate_right_key = Disabled
+as_rotate_left_window_key = Disabled
+as_rotate_right_window_key = Disabled
 s0_invert_y = true
 s0_invert_x = true
 s0_snap_top = true
@@ -146,6 +174,7 @@ as_saturation = 33.000000
 as_brightness = 75.000000
 
 [showmouse]
+as_initiate = Disabled
 as_initiate_edge = Left|Right|Top|Bottom|TopLeft|TopRight|BottomLeft|BottomRight
 s0_num_particles = 200
 s0_color = #ffdf3fff
