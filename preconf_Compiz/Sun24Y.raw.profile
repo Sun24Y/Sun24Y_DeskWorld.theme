@@ -3,23 +3,39 @@ s0_zoom_factor = 5.000000
 s0_speed = 3.000000
 s0_box_color = #00850dff
 
+[wobbly]
+as_shiver = true
+s0_friction = 6.000000
+s0_spring_k = 10.000000
+s0_grid_resolution = 32
+s0_min_grid_size = 16
+s0_map_effect = 1
+s0_focus_effect = 1
+s0_focus_window_match = any
+s0_grab_window_match = any
+
 [expo]
 as_ground_color1 = #b3b3b3cc
 as_ground_color2 = #b3b3b300
 
 [cubeaddon]
-s0_ground_color1 = #007d0cff
-s0_ground_color2 = #000000ff
+as_top_next_key = Disabled
+s0_ground_color1 = #ffcc00c4
+s0_ground_color2 = #3c0012ff
+s0_ground_size = 1.000000
+s0_intensity = 0.660000
 s0_mode = 2
 s0_deformation = 0
 s0_adjust_top = true
 s0_adjust_bottom = true
-s0_top_color = #61b861ff
-s0_bottom_color = #9f42a9ff
-s0_top_images = ;
-s0_bottom_images = 
+s0_top_color = #29a316ff
+s0_bottom_color = #8f0077ff
+s0_top_images = ;/home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Spiral_Inverter_Cycle.jpg;
+s0_bottom_images = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/stars.jpg;
 
 [decoration]
+as_shadow_x_offset = 3
+as_shadow_y_offset = 3
 as_command = emerald --replace
 as_mipmap = true
 
@@ -36,15 +52,18 @@ s0_ground_color = #855e00ff
 s0_water_color = #08093008
 
 [cube]
+as_unfold_key = Disabled
+as_next_slide_key = Disabled
 s0_in = true
-s0_color = #001b51ff
+s0_color = #51001bff
 s0_scale_image = true
+s0_images = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Color_Swirl.jpg;
 s0_adjust_image = true
 s0_skydome = true
-s0_skydome_image = /home/loop/Bilder/Multi_Universe.jpg
+s0_skydome_image = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Banner_Universe.jpg
 s0_skydome_animated = true
-s0_skydome_gradient_start_color = #3b72baff
-s0_skydome_gradient_end_color = #6b0016ff
+s0_skydome_gradient_start_color = #002c66ff
+s0_skydome_gradient_end_color = #26511dff
 s0_active_opacity = 100.000000
 s0_transparent_manual_only = false
 
@@ -78,6 +97,10 @@ s0_invert_y = true
 s0_invert_x = true
 s0_snap_top = true
 s0_snap_bottom = true
+
+[reflex]
+s0_file = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Spiral_Inverter_Cycle.jpg
+s0_window = true
 
 [opacify]
 as_timeout = 1500
