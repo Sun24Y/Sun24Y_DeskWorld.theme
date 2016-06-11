@@ -471,22 +471,22 @@ as_saturation_increase_button = Disabled
 as_saturation_decrease_key = <Control><Primary>Delete
 as_saturation_decrease_button = Disabled
 s0_opacity_step = 10
-s0_opacity_matches = any;(dialog) | type=Dialog;
-s0_opacity_values = 100;80;
+s0_opacity_matches = Normal;(title="cairo-dock") | type=Dock;(dialog) | type=Dialog;
+s0_opacity_values = 100;100;90;
 s0_brightness_step = 10
-s0_brightness_matches = any;type=Dialog;
-s0_brightness_values = 90;100;
+s0_brightness_matches = Fullscreen;Normal;type=Dialog;
+s0_brightness_values = 100;100;100;
 s0_saturation_step = 10
-s0_saturation_matches = any;
-s0_saturation_values = 80;
+s0_saturation_matches = Normal;type=Dialog;(title="cairo-dock") | type=Dock;
+s0_saturation_values = 100;100;100;
 
 [addhelper]
-as_toggle_key = Disabled
+as_toggle_key = <Control><Primary><Alt>less
 as_window_types = (Toolbar | Utility | Dialog | ModalDialog | Fullscreen | Normal) | type=Dock
 as_ononinit = true
-as_brightness = 75
+as_brightness = 66
 as_saturation = 100
-as_opacity = 100
+as_opacity = 90
 
 [cube]
 as_unfold_key = Disabled
