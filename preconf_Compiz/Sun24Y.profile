@@ -626,7 +626,7 @@ s0_strength = 20.000000
 s0_on_transformed_screen = false
 
 [core]
-as_active_plugins = core;ccp;mousepoll;text;maximumize;minimize;vpswitch;place;session;shelf;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;smartput;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;putplus;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;scaleaddon;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
+as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;shelf;regex;fadedesktop;grid;winrules;glib;mblur;widget;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;smartput;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;putplus;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;scaleaddon;rotate;opacify;showmouse;showdesktop;photo;scalefilter;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_audible_bell = true
 as_ignore_hints_when_maximized = true
 as_hide_skip_taskbar_windows = true
