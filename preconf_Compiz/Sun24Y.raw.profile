@@ -58,8 +58,31 @@ s0_water_color = #08093008
 as_window_toggle_key = Disabled
 as_screen_toggle_key = <Super>i
 
+[obs]
+as_opacity_increase_key = <Control><Primary>Prior
+as_opacity_increase_button = Disabled
+as_opacity_decrease_key = <Control><Primary>Next
+as_opacity_decrease_button = Disabled
+as_brightness_increase_key = <Control><Primary>Home
+as_brightness_decrease_key = <Control><Primary>End
+as_saturation_increase_key = <Control><Primary>Insert
+as_saturation_decrease_key = <Control><Primary>Delete
+s0_opacity_step = 10
+s0_opacity_matches = any;
+s0_opacity_values = 100;
+s0_brightness_step = 10
+s0_brightness_matches = any;
+s0_brightness_values = 100;
+s0_saturation_step = 10
+s0_saturation_matches = any;
+s0_saturation_values = 100;
+
 [addhelper]
+as_toggle_key = Disabled
 as_ononinit = true
+as_brightness = 33
+as_saturation = 64
+as_opacity = 80
 
 [cube]
 as_unfold_key = Disabled
@@ -99,6 +122,7 @@ s0_texture_compression = true
 
 [widget]
 as_toggle_key = <Control><Primary>Menu
+s0_match = (type=Toolbar) | type=Widget
 
 [snowglobe]
 s0_water_color = #0808300f
@@ -111,6 +135,13 @@ s0_title_bold = true
 s0_window_highlight = true
 s0_highlight_color = #5a00ff96
 s0_exit_after_pull = true
+
+[ghost]
+as_ghost_toggle_window_key = <Control><Primary>less
+as_speed = 4.000000
+as_opacity = 33.000000
+as_saturation = 50.000000
+as_brightness = 75.000000
 
 [throw]
 s0_velocity_x = 1.000000
@@ -157,6 +188,7 @@ as_arrow_shadow_color = #dcdcdcd9
 
 [thumbnail]
 s0_thumb_color = #4e00307f
+s0_mipmap = true
 
 [freewins]
 s0_circle_color = #5400fb80

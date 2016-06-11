@@ -458,35 +458,35 @@ as_animtime = 150
 as_interval = 0.900000
 
 [obs]
-as_opacity_increase_key = Disabled
-as_opacity_increase_button = <Alt>Button4
-as_opacity_decrease_key = Disabled
-as_opacity_decrease_button = <Alt>Button5
-as_brightness_increase_key = Disabled
+as_opacity_increase_key = <Control><Primary>Prior
+as_opacity_increase_button = Disabled
+as_opacity_decrease_key = <Control><Primary>Next
+as_opacity_decrease_button = Disabled
+as_brightness_increase_key = <Control><Primary>Home
 as_brightness_increase_button = Disabled
-as_brightness_decrease_key = Disabled
+as_brightness_decrease_key = <Control><Primary>End
 as_brightness_decrease_button = Disabled
-as_saturation_increase_key = Disabled
+as_saturation_increase_key = <Control><Primary>Insert
 as_saturation_increase_button = Disabled
-as_saturation_decrease_key = Disabled
+as_saturation_decrease_key = <Control><Primary>Delete
 as_saturation_decrease_button = Disabled
-s0_opacity_step = 5
-s0_opacity_matches = 
-s0_opacity_values = 
-s0_brightness_step = 5
-s0_brightness_matches = 
-s0_brightness_values = 
-s0_saturation_step = 5
-s0_saturation_matches = 
-s0_saturation_values = 
+s0_opacity_step = 10
+s0_opacity_matches = any;
+s0_opacity_values = 100;
+s0_brightness_step = 10
+s0_brightness_matches = any;
+s0_brightness_values = 100;
+s0_saturation_step = 10
+s0_saturation_matches = any;
+s0_saturation_values = 100;
 
 [addhelper]
-as_toggle_key = <Super>p
+as_toggle_key = Disabled
 as_window_types = Toolbar | Utility | Dialog | ModalDialog | Fullscreen | Normal
 as_ononinit = true
-as_brightness = 30
-as_saturation = 50
-as_opacity = 100
+as_brightness = 33
+as_saturation = 64
+as_opacity = 80
 
 [cube]
 as_unfold_key = Disabled
@@ -682,7 +682,7 @@ s0_texture_compression = true
 as_toggle_key = <Control><Primary>Menu
 as_toggle_button = Disabled
 as_toggle_edge = 
-s0_match = 
+s0_match = (type=Toolbar) | type=Widget
 s0_end_on_click = true
 s0_fade_time = 0.500000
 s0_bg_brightness = 50
@@ -749,15 +749,15 @@ as_title_wave = false
 [ghost]
 as_ghost_toggle_key = Disabled
 as_ghost_toggle_button = Disabled
-as_ghost_toggle_window_key = Disabled
+as_ghost_toggle_window_key = <Control><Primary>less
 as_ghost_toggle_window_button = Disabled
 as_window_types = state=above & type=normal
 as_ghost_active = true
 as_fade_on_mouseover = false
-as_speed = 16.000000
-as_opacity = 30.000000
-as_saturation = 30.000000
-as_brightness = 80.000000
+as_speed = 4.000000
+as_opacity = 33.000000
+as_saturation = 50.000000
+as_brightness = 75.000000
 
 [throw]
 s0_velocity_x = 1.000000
@@ -967,7 +967,7 @@ s0_fade_speed = 0.500000
 s0_current_viewport = true
 s0_always_on_top = true
 s0_window_like = true
-s0_mipmap = false
+s0_mipmap = true
 s0_title_enabled = true
 s0_font_family = Sans
 s0_font_bold = true
