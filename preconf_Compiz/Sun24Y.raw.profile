@@ -58,6 +58,9 @@ s0_water_color = #08093008
 as_window_toggle_key = Disabled
 as_screen_toggle_key = <Super>i
 
+[addhelper]
+as_ononinit = true
+
 [cube]
 as_unfold_key = Disabled
 as_next_slide_key = Disabled
@@ -83,7 +86,7 @@ as_toggle_key = <Super>space
 s0_filter_decorations = true
 
 [core]
-as_active_plugins = core;mousepoll;text;maximumize;minimize;vpswitch;place;session;shelf;regex;fadedesktop;grid;winrules;glib;mblur;widget;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;smartput;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;putplus;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;scaleaddon;rotate;opacify;showmouse;showdesktop;photo;scalefilter;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
+as_active_plugins = core;ccp;mousepoll;text;maximumize;minimize;vpswitch;place;session;shelf;regex;winrules;glib;mblur;crashhandler;water;ghost;resize;ring;dbus;thumbnail;shift;dialog;mswitch;annotate;notification;imgjpeg;inotify;smartput;workarounds;svg;titleinfo;clone;png;extrawm;wallpaper;commands;screenshot;fakeargb;putplus;firepaint;put;elements;decoration;resizeinfo;loginout;snow;star;animation;fireflies;animationaddon;snap;wobbly;blur;animationsim;obs;colorfilter;video;reflex;animationplus;fade;bicubic;move;swap;group;trailfocus;addhelper;cube;scale;anaglyph;scaleaddon;rotate;opacify;showmouse;showdesktop;3d;wizard;mag;cubeaddon;static;zoom;ezoom;switcher;
 as_edge_delay = 500
 as_cursor_theme = crystalcursors
 as_cursor_size = 42
@@ -131,7 +134,7 @@ s0_file = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Spiral_Inverter
 s0_window = true
 
 [opacify]
-as_timeout = 1500
+as_timeout = 750
 s0_only_if_block = true
 s0_focus_instant = true
 s0_no_delay_change = true
