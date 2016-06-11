@@ -68,21 +68,21 @@ as_brightness_decrease_key = <Control><Primary>End
 as_saturation_increase_key = <Control><Primary>Insert
 as_saturation_decrease_key = <Control><Primary>Delete
 s0_opacity_step = 10
-s0_opacity_matches = any;
-s0_opacity_values = 100;
+s0_opacity_matches = any;(dialog) | type=Dialog;
+s0_opacity_values = 100;80;
 s0_brightness_step = 10
-s0_brightness_matches = any;
-s0_brightness_values = 100;
+s0_brightness_matches = any;type=Dialog;
+s0_brightness_values = 90;100;
 s0_saturation_step = 10
 s0_saturation_matches = any;
-s0_saturation_values = 100;
+s0_saturation_values = 80;
 
 [addhelper]
 as_toggle_key = Disabled
+as_window_types = (Toolbar | Utility | Dialog | ModalDialog | Fullscreen | Normal) | type=Dock
 as_ononinit = true
-as_brightness = 33
-as_saturation = 64
-as_opacity = 80
+as_brightness = 75
+as_saturation = 100
 
 [cube]
 as_unfold_key = Disabled
@@ -172,6 +172,7 @@ as_timeout = 750
 s0_only_if_block = true
 s0_focus_instant = true
 s0_no_delay_change = true
+s0_active_opacity = 90
 s0_passive_opacity = 33
 
 [wall]
