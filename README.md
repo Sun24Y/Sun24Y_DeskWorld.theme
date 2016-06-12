@@ -36,13 +36,13 @@ ScreenBorder + Left_MouseBTN …………………. clear fireplace
 CTRL + RightMenuKey …………………. open widget layer
   
   
-**You can change the opacity+saturation+brightness with the CTRL key and pressed together with following key-combo:**  
+**You can change the opacity- / saturation- / brightness-values with the CTRL key and pressed together with following key-combo:**  
   
 Ins / Del …………………. +/- saturation  
   
-Pos1 / End …………………. +/- Brightness  
+Pos1 / End …………………. +/- brightness  
   
-PageUP / PageDOWN …………………. + /- Opacity 
+PageUP / PageDOWN …………………. + /- opacity 
   
 --------------------------------------------------------------------------------------------------------------
   
