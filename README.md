@@ -8,7 +8,6 @@ https://youtu.be/Yw0E0mq2Oo4
   
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XVERKOXc3dFR1dzA)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XQVNxaENPTEVZRWM)  
-![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XYmNncnpvZGFwSHc)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XN19sWGRNSnhDM1k)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XZzVXQW05WS1XMVU)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XS0h3RTE2b1ZUVlU)  
