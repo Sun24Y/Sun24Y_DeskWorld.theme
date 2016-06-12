@@ -6,13 +6,46 @@ https://youtu.be/kUqSXFSfkcE
 ... or view another video that shows especially the visual-effects:  
 https://youtu.be/Yw0E0mq2Oo4  
   
-  
-![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XQVNxaENPTEVZRWM)
+![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XVERKOXc3dFR1dzA)  
+![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XQVNxaENPTEVZRWM)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XYmNncnpvZGFwSHc)  
-![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XVnlaSmdpMkVYbU0)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XN19sWGRNSnhDM1k)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XZzVXQW05WS1XMVU)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XS0h3RTE2b1ZUVlU)  
+
+--------------------------------------------------------------------------------------------------------------
+
+#### CONTROLLER KEYS:
+**To change the active desktop screen just press the middle-mouse-button and move the mouse left or right towards the desired direction and release the button to set focus on new view.**  
+
+CTRL + < + LeftAlt …………………. lighten / darken dock elements
+
+CTRL + < …………………. transcendental view through all layers
+
+RightMenuKey …………………. activate starflight
+
+LeftAlt + SPACEBAR …………………. activate fireburner effect
+
+CTRL + LeftWin …………………. drop watersplash
+
+LeftWin + SPACEBAR …………………. let it snow
+
+LeftWin + Left_MouseBTN …………………. draw fire on screen
+
+ScreenBorder + Left_MouseBTN …………………. clear fireplace
+
+CTRL + RightMenuKey …………………. open widget layer
+  
+  
+**You can change the opacity+saturation+brightness with the CTRL key and pressed together with following key-combo:**  
+  
+Ins / Del …………………. +/- saturation  
+  
+Pos1 / End …………………. +/- Brightness  
+  
+PageUP / PageDOWN …………………. + /- Opacity 
+  
+--------------------------------------------------------------------------------------------------------------
   
 ### THEME-INFORMATION    
 This GIT contains different configuration files for the desktop environment, using following applications for an enhanced UX (=user experience). All files were chosen in combination of setting up theme-privileges in a hierarchical order:  
