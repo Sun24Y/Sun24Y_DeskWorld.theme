@@ -5,6 +5,8 @@ Take a look at the animated theme preview of this desktop-environment on YouTube
 https://youtu.be/kUqSXFSfkcE  
 ... or view another video that shows especially the visual-effects:  
 https://youtu.be/Yw0E0mq2Oo4  
+... and for the latest visual desktop configuration preview, take this one:  
+https://www.youtube.com/watch?v=9J1t8-oL5dw  
   
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XVERKOXc3dFR1dzA)  
 ![](https://docs.google.com/uc?export=download&id=0B5YtQ2Ka-H8XQVNxaENPTEVZRWM)  
