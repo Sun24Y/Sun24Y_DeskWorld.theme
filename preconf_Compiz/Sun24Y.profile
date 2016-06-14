@@ -484,9 +484,9 @@ s0_saturation_values = 100;100;100;
 as_toggle_key = <Control><Primary><Alt>less
 as_window_types = (Toolbar | Utility | Dialog | ModalDialog | Fullscreen | Normal) | type=Dock
 as_ononinit = true
-as_brightness = 66
+as_brightness = 95
 as_saturation = 100
-as_opacity = 90
+as_opacity = 100
 
 [cube]
 as_unfold_key = Disabled
