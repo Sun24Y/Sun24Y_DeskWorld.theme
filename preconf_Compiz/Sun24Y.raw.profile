@@ -138,6 +138,7 @@ s0_highlight_color = #5a00ff96
 s0_exit_after_pull = true
 
 [ghost]
+as_ghost_toggle_key = <Super>less
 as_ghost_toggle_window_key = <Control><Primary>less
 as_speed = 4.000000
 as_opacity = 33.000000
@@ -169,6 +170,7 @@ s0_file = /home/loop/Dokumente/Sun24Y_DeskWorld.theme/WallPapers/Spiral_Inverter
 s0_window = true
 
 [opacify]
+as_toggle_key = <Super>less
 as_timeout = 750
 s0_only_if_block = true
 s0_focus_instant = true
@@ -228,7 +230,7 @@ as_quality = 75
 
 [3d]
 s0_min_cube_size = 40
-s0_max_window_space = 33
+s0_max_window_space = 16
 s0_width = 0.400000
 s0_bevel = 1
 s0_width_color = #09ac00ff

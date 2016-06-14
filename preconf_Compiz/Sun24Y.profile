@@ -747,7 +747,7 @@ as_rain_delay = 250
 as_title_wave = false
 
 [ghost]
-as_ghost_toggle_key = Disabled
+as_ghost_toggle_key = <Super>less
 as_ghost_toggle_button = Disabled
 as_ghost_toggle_window_key = <Control><Primary>less
 as_ghost_toggle_window_button = Disabled
@@ -846,7 +846,7 @@ as_rectangle_match =
 as_stretch_match = 
 
 [opacify]
-as_toggle_key = <Super>o
+as_toggle_key = <Super>less
 as_toggle_reset = true
 as_timeout = 750
 as_init_toggle = true
@@ -1334,7 +1334,7 @@ as_window_margin = 0
 [3d]
 s0_window_match = Toolbar | Utility | Dialog | Normal | Unknown
 s0_min_cube_size = 40
-s0_max_window_space = 33
+s0_max_window_space = 16
 s0_manual_only = true
 s0_width = 0.400000
 s0_bevel = 1
