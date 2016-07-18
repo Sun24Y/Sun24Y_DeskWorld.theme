@@ -149,80 +149,8 @@ widget &quot;gtk-tooltip*&quot; style &quot;gnome-color-chooser-compact-tooltips
     <!-- Element: GtkWidget::visited-link-color -->
   <element id ="82" value="#00526B"/>
 
-    <!-- Engine: murrine -->
-  <engine name="murrine" category="default">
-      <!-- Param: Animationen (Animationen für Fortschrittsleisten, Radioknöpfe und Ankreuzfelder aktivieren) -->
-    <element name="animation" value="TRUE"/>
-      <!-- Param: Stil der Pfeile -->
-    <element name="arrowstyle" value="2"/>
-      <!-- Param: Rollbalken einfärben (Rollbalken einfärben mit bg[SELECTED]) -->
-    <element name="colorize_scrollbar" value="TRUE"/>
-      <!-- Param: Zellenstil -->
-    <element name="cellstyle" value="1"/>
-      <!-- Param: Stil der Kombinationsfelder -->
-    <element name="comboboxstyle" value="1"/>
-      <!-- Param: Kontrast (Gefährlich, dies sollte NUR VON HAND in der gtkrc in separaten Abschnitten festgelegt werden) -->
-    <element name="contrast" value="1.0"/>
-      <!-- Param: Vorgegebene Knopffarbe (Legt die vorgegebene Farbe für den 2 Pixel breiten Rand des Knopfes fest) -->
-    <element name="default_button_color" value="#992233"/>
-      <!-- Param: Stil des Ausklappers -->
-    <element name="expanderstyle" value="2"/>
-      <!-- Param: Farbe des Fokus (Legt die Farbe für den Fokus fest) -->
-    <element name="focus_color" value="#770011"/>
-      <!-- Param: Stil des Fokus -->
-    <element name="focusstyle" value="3"/>
-      <!-- Param: Lasurstil -->
-    <element name="glazestyle" value="4"/>
-      <!-- Param: Glutschattierung (Glutschattierung verstärken/abschwächen) -->
-    <element name="glow_shade" value="1.0"/>
-      <!-- Param: Glutstil -->
-    <element name="glowstyle" value="2"/>
-      <!-- Param: Stil des Anfassers -->
-    <element name="handlestyle" value="1"/>
-      <!-- Param: Schattierung der Hervorhebung (Hervorhebungsschattierung verstärken/abschwächen) -->
-    <element name="highlight_shade" value="1.1"/>
-      <!-- Param: Schattierung des Lichtrands (Lichtrandschattierung verstärken/abschwächen) -->
-    <element name="lightborder_shade" value="2.00"/>
-      <!-- Param: Stil des Lichtrands -->
-    <element name="lightborderstyle" value="1"/>
-      <!-- Param: Stil der Kopfzeilen der Listenansicht -->
-    <element name="listviewheaderstyle" value="1"/>
-      <!-- Param: Trenner der Listenansicht -->
-    <element name="listviewstyle" value="2"/>
-      <!-- Param: Stil der Menüleistenobjekte -->
-    <element name="menubaritemstyle" value="1"/>
-      <!-- Param: Stil der Menüleiste -->
-    <element name="menubarstyle" value="1"/>
-      <!-- Param: Stil der Menüeinträge -->
-    <element name="menuitemstyle" value="1"/>
-      <!-- Param: Menüstil -->
-    <element name="menustyle" value="3"/>
-      <!-- Param: Schattierung der Markierung (Schattierung der Markierung erhöhen/verringern) -->
-    <element name="prelight_shade" value="1.0"/>
-      <!-- Param: Stil der Fortschrittsleiste -->
-    <element name="progressbarstyle" value="2"/>
-      <!-- Param: Relief-Stil der Elemente -->
-    <element name="reliefstyle" value="3"/>
-      <!-- Param: RGBA-Unterstützung aktivieren/deaktivieren -->
-    <element name="rgba" value="TRUE"/>
-      <!-- Param: Rundung -->
-    <element name="roundness" value="1"/>
-      <!-- Param: Zusätzliche Funktionen der Rollbalken -->
-    <element name="scrollbarstyle" value="1"/>
-      <!-- Param: Stil des Trenners -->
-    <element name="separatorstyle" value="1"/>
-      <!-- Param: Stil der Schieberegler -->
-    <element name="sliderstyle" value="1"/>
-      <!-- Param: Stil der Einstellfelder -->
-    <element name="spinbuttonstyle" value="1"/>
-      <!-- Param: Stil des Steppers -->
-    <element name="stepperstyle" value="2"/>
-      <!-- Param: Textstil -->
-    <element name="textstyle" value="1"/>
-      <!-- Param: Textschattierung (Textschattierung verstärken/abschwächen) -->
-    <element name="text_shade" value="1.06"/>
-      <!-- Param: Stil der Werkzeugleisten -->
-    <element name="toolbarstyle" value="1"/>
+    <!-- Engine: mist -->
+  <engine name="mist" category="default" disabled="true">
   </engine>
 
 
@@ -438,80 +366,8 @@ widget &quot;gtk-tooltip*&quot; style &quot;gnome-color-chooser-compact-tooltips
     <!-- Element: font_name -->
   <element id ="93" value="Sans Bold 7"/>
 
-    <!-- Engine: murrine -->
-  <engine name="murrine" category="button">
-      <!-- Param: Animationen (Animationen für Fortschrittsleisten, Radioknöpfe und Ankreuzfelder aktivieren) -->
-    <element name="animation" value="TRUE"/>
-      <!-- Param: Stil der Pfeile -->
-    <element name="arrowstyle" value="1"/>
-      <!-- Param: Rollbalken einfärben (Rollbalken einfärben mit bg[SELECTED]) -->
-    <element name="colorize_scrollbar" value="TRUE"/>
-      <!-- Param: Zellenstil -->
-    <element name="cellstyle" value="1"/>
-      <!-- Param: Stil der Kombinationsfelder -->
-    <element name="comboboxstyle" value="1"/>
-      <!-- Param: Kontrast (Gefährlich, dies sollte NUR VON HAND in der gtkrc in separaten Abschnitten festgelegt werden) -->
-    <element name="contrast" value="1.0"/>
-      <!-- Param: Vorgegebene Knopffarbe (Legt die vorgegebene Farbe für den 2 Pixel breiten Rand des Knopfes fest) -->
-    <element name="default_button_color" value="#2E2E2E"/>
-      <!-- Param: Stil des Ausklappers -->
-    <element name="expanderstyle" value="1"/>
-      <!-- Param: Farbe des Fokus (Legt die Farbe für den Fokus fest) -->
-    <element name="focus_color" value="#3D3D3D"/>
-      <!-- Param: Stil des Fokus -->
-    <element name="focusstyle" value="2"/>
-      <!-- Param: Lasurstil -->
-    <element name="glazestyle" value="4"/>
-      <!-- Param: Glutschattierung (Glutschattierung verstärken/abschwächen) -->
-    <element name="glow_shade" value="2.00"/>
-      <!-- Param: Glutstil -->
-    <element name="glowstyle" value="2"/>
-      <!-- Param: Stil des Anfassers -->
-    <element name="handlestyle" value="2"/>
-      <!-- Param: Schattierung der Hervorhebung (Hervorhebungsschattierung verstärken/abschwächen) -->
-    <element name="highlight_shade" value="1.1"/>
-      <!-- Param: Schattierung des Lichtrands (Lichtrandschattierung verstärken/abschwächen) -->
-    <element name="lightborder_shade" value="1.1"/>
-      <!-- Param: Stil des Lichtrands -->
-    <element name="lightborderstyle" value="1"/>
-      <!-- Param: Stil der Kopfzeilen der Listenansicht -->
-    <element name="listviewheaderstyle" value="1"/>
-      <!-- Param: Trenner der Listenansicht -->
-    <element name="listviewstyle" value="2"/>
-      <!-- Param: Stil der Menüleistenobjekte -->
-    <element name="menubaritemstyle" value="0"/>
-      <!-- Param: Stil der Menüleiste -->
-    <element name="menubarstyle" value="1"/>
-      <!-- Param: Stil der Menüeinträge -->
-    <element name="menuitemstyle" value="1"/>
-      <!-- Param: Menüstil -->
-    <element name="menustyle" value="3"/>
-      <!-- Param: Schattierung der Markierung (Schattierung der Markierung erhöhen/verringern) -->
-    <element name="prelight_shade" value="1.0"/>
-      <!-- Param: Stil der Fortschrittsleiste -->
-    <element name="progressbarstyle" value="2"/>
-      <!-- Param: Relief-Stil der Elemente -->
-    <element name="reliefstyle" value="3"/>
-      <!-- Param: RGBA-Unterstützung aktivieren/deaktivieren -->
-    <element name="rgba" value="TRUE"/>
-      <!-- Param: Rundung -->
-    <element name="roundness" value="1"/>
-      <!-- Param: Zusätzliche Funktionen der Rollbalken -->
-    <element name="scrollbarstyle" value="4"/>
-      <!-- Param: Stil des Trenners -->
-    <element name="separatorstyle" value="1"/>
-      <!-- Param: Stil der Schieberegler -->
-    <element name="sliderstyle" value="1"/>
-      <!-- Param: Stil der Einstellfelder -->
-    <element name="spinbuttonstyle" value="1"/>
-      <!-- Param: Stil des Steppers -->
-    <element name="stepperstyle" value="2"/>
-      <!-- Param: Textstil -->
-    <element name="textstyle" value="1"/>
-      <!-- Param: Textschattierung (Textschattierung verstärken/abschwächen) -->
-    <element name="text_shade" value="1.06"/>
-      <!-- Param: Stil der Werkzeugleisten -->
-    <element name="toolbarstyle" value="1"/>
+    <!-- Engine: mist -->
+  <engine name="mist" category="button" disabled="true">
   </engine>
 
 
